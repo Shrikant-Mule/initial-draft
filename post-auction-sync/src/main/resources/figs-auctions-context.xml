@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:int="http://www.springframework.org/schema/integration"
+	xmlns:int-jdbc="http://www.springframework.org/schema/integration/jdbc"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/integration http://www.springframework.org/schema/integration/spring-integration.xsd
+		http://www.springframework.org/schema/integration/jdbc http://www.springframework.org/schema/integration/jdbc/spring-integration-jdbc.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<int:annotation-config/>
+	<int-jdbc:inbound-channel-adapter channel="inboundChannel" data-source="dataSource" 
+				query="${app.select-query}" max-rows-per-poll="${app.rows-per-poll}"
+				update="${app.update-inprogress}"
+				row-mapper="auctionResultMapper">
+		<int:poller fixed-delay="${app.poller}"/>
+	</int-jdbc:inbound-channel-adapter>
+	
+	
+	<int:splitter input-channel="inboundChannel" output-channel="processChannel"/>
+	
+	<int:channel id="processChannel">
+		<int:dispatcher task-executor="executor"/>
+	</int:channel>
+
+	<int:service-activator input-channel="processChannel" ref="auctionResultsProcessor" method="sendAuctionResult"/>
+	
+	<task:executor id="executor" pool-size="10" queue-capacity="100" rejection-policy="CALLER_RUNS"/>
+	
+
+</beans>

@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Copart</title>
+	<style type="text/css">
+		#outlook a {padding:0;}
+		body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;font-family:Arial;} 
+		.ExternalClass {width:100%;}
+		.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+		#backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+		img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;} 
+		a img {border:none;} 
+		.image_fix {display:block;}
+		p {margin: 1em 0;}
+		h1, h2, h4, h5, h6 {color: black !important;}
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: white !important;}
+		h1 a:active, h2 a:active,  h3 a:active, h4 a:active, h5 a:active, h6 a:active {
+		color: red !important;
+		}
+		h1 a:visited, h2 a:visited,  h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+		color: white !important; 
+		}
+		table td {border-collapse: collapse;}
+		table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+		a {color: white;}
+		@media only screen and (max-device-width: 480px) {
+			a[href^="tel"], a[href^="sms"] {
+						text-decoration: none;
+						color: white;
+						pointer-events: none;
+						cursor: default;
+					}
+			.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+						text-decoration: default;
+						color: white !important;
+						pointer-events: auto;
+						cursor: default;
+					}
+
+		}
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+			a[href^="tel"], a[href^="sms"] {
+						text-decoration: none;
+						color: white;
+						pointer-events: none;
+						cursor: default;
+					}
+			.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+						text-decoration: default;
+						color: white !important;
+						pointer-events: auto;
+						cursor: default;
+					}
+		}
+		@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+		/* iPhone 4g */ 
+		}
+
+		/* Android targeting */
+		@media only screen and (-webkit-device-pixel-ratio:.75){
+		/* Low density (ldpi) Android */
+		}
+		@media only screen and (-webkit-device-pixel-ratio:1){
+		/* Medium density (mdpi) Android */
+		}
+		@media only screen and (-webkit-device-pixel-ratio:1.5){
+		/* High density (hdpi) Android */
+		}
+	</style>
+
+
+</head>
+<body>
+<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable">
+	<tr>
+		<td valign="top" style="margin-left:0; margin-top:0; margin-bottom:0; margin-right:0; padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;"> 
+		<table cellpadding="0" cellspacing="0" border="0" align="center">
+			<tr>
+				<td width="600" valign="top" style="margin-left:0; margin-top:0; margin-bottom:0; margin-right:0; padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+                	<table width="584" border="0" align="center" cellpadding="0" cellspacing="0">
+						#parse ("common_header.vm")
+
+
+
+
+			<!-- ||| BEGIN GERMAN -->
+                        <tr>
+                        	<td style="text-align:center; margin-left:0; margin-top:0; margin-bottom:0; margin-right:0; padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+                            <table width="584" cellpadding="0" cellspacing="0" border="0" align="center" style="width:584px; border-collapse:collapse;">
+                            <tr>
+                            <td style="margin-left:0; margin-top:0; margin-bottom:0; margin-right:0; padding-left:20px; padding-right:0; padding-top:0; padding-bottom:0;">
+                            	<h2 style="color:#333333; font-size:22px; padding-bottom:3px; font-family:Arial; text-align:left; margin-left:0; margin-top:0; margin-bottom:0; margin-right:0; padding-left:0; padding-right:0; padding-top:0; padding-bottom:3px; line-height: 20px;">Sie haben den Zuschlag erhalten, aber das Fahrzeug befindet sich nicht auf unserem Platz</h2>
+                            </td>
+                            </tr>
+                            </table>
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td style="margin-left:0; margin-top:0; margin-bottom:0; margin-right:0; padding-left:0; padding-right:0; padding-top:14px; padding-bottom:0;">
+                            <table width="584" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+                            <tr>
+                                <td style="vertical-align:top; text-align:center; margin-left:0; margin-top:0; margin-bottom:0; margin-right:0; padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+                                <table width="584" cellpadding="0" cellspacing="0" border="0" align="center" style="border-collapse:collapse; vertical-align:middle; border:1px solid #d5d5d5;">
+                                <tr>
+                                <td width="" valign="top" style="vertical-align:top; text-align:left; padding:10px; margin-left:0; margin-top:0; margin-bottom:0; margin-right:0; padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px;">
+                                    <table cellpadding="0" cellspacing="0" border="0" align="center" style="border-collapse:collapse; vertical-align:middle;">
+                                    <tr>
+                                    <td width="584" style="background:#f1f1f1; vertical-align:top; margin-left:0; margin-top:0; margin-bottom:0; margin-right:0; padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px; text-align:left;">
+
+                                    <h2 style="color:#333333;font-size:18px;line-height:20px;padding:0;margin:0;padding-bottom:3px;font-family:Arial;text-align:left;">Hallo $BUYERNAME</h2>
+                                    <p style="text-align:left;font-size:14px;font-family:Arial;line-height:18px;color:#696a6d;margin:0;padding:0;">
+                                    Wir freuen uns Ihnen mitteilen zu k&#246;nnen, dass Sie den Zuschlag f&#252;r folgendes Fahrzeug in der Offsite Auktion erhalten haben:
+                                    <br /><br />
+									Objektnummer: $LOTNUMBER, $LOTDESCRIPTION
+                                    <br /><br /> 
+                                    Gekauft am $SALEDATE in $OFFSITELOCATION
+                                    <br /><br />
+                                    H&#246;chstgebot war $HIGHBID 
+                                    <br /><br />
+				    Da es sich um eine Offsite Auktion handelt, befindet sich das Fahrzeug zur Zeit nicht auf einem unserer Pl&#228;tze. Sie werden eine separate Email erhalten sobald das Fahrzeug abholbereit ist. Falls Sie Fragen diesbez&#252;glich haben, kontaktieren Sie bitte unseren Standort unter $YARDNUMBER $YARDNAME $YARDPHONE
+									<br /><br />
+                                    Vielen Dank f&#252;r Ihre Zusammenarbeit mit Copart.
+									<br /><br />
+									
+<p style="text-align:left;font-size:12px;font-family:Arial;line-height:18px;color:#696a6d;margin:0;padding:0;">Dies ist eine automatisch versendete Email.<br>
+                                    Bitte antworten Sie nicht auf dieses Schreiben, da diese Adresse nur zur Versendung von Emails eingerichtet ist.</p>
+                                    
+                                    </td>
+                                    </tr>
+                                    </table>
+                     			</td>
+                                </tr>
+                                </table>
+                                </td>
+                                                             
+                                </tr>
+                            </table>
+                            </td>
+                        </tr>
+			<!-- ||| END GERMAN -->
+
+
+
+			<!-- ||| BEGIN ENGLISH -->
+                        <tr>
+                        	<td style="text-align:center; margin-left:0; margin-top:0; margin-bottom:0; margin-right:0; padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+                            <table width="584" cellpadding="0" cellspacing="0" border="0" align="center" style="width:584px; border-collapse:collapse;">
+                            <tr>
+                            <td style="margin-left:0; margin-top:0; margin-bottom:0; margin-right:0; padding-left:20px; padding-right:0; padding-top:20px; padding-bottom:0;">
+                            	<h2 style="color:#333333; font-size:22px; padding-bottom:3px; font-family:Arial; text-align:left; margin-left:0; margin-top:0; margin-bottom:0; margin-right:0; padding-left:0; padding-right:0; padding-top:0; padding-bottom:3px;">You Won Lot# $LOTNUMBER</h2>
+                            </td>
+                            </tr>
+                            </table>
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td style="margin-left:0; margin-top:0; margin-bottom:0; margin-right:0; padding-left:0; padding-right:0; padding-top:14px; padding-bottom:0;">
+                            <table width="584" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+                            <tr>
+                                <td style="vertical-align:top; text-align:center; margin-left:0; margin-top:0; margin-bottom:0; margin-right:0; padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
+                                <table width="584" cellpadding="0" cellspacing="0" border="0" align="center" style="border-collapse:collapse; vertical-align:middle; border:1px solid #d5d5d5;">
+                                <tr>
+                                <td width="" valign="top" style="vertical-align:top; text-align:left; padding:10px; margin-left:0; margin-top:0; margin-bottom:0; margin-right:0; padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px;">
+                                    <table cellpadding="0" cellspacing="0" border="0" align="center" style="border-collapse:collapse; vertical-align:middle;">
+                                    <tr>
+                                    <td width="584" style="background:#f1f1f1; vertical-align:top; margin-left:0; margin-top:0; margin-bottom:0; margin-right:0; padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px; text-align:left;">
+
+                                    <h2 style="color:#333333;font-size:18px;line-height:20px;padding:0;margin:0;padding-bottom:3px;font-family:Arial;text-align:left;">Hello $BUYERNAME</h2>
+                                    <p style="text-align:left;font-size:14px;font-family:Arial;line-height:18px;color:#696a6d;margin:0;padding:0;">
+                                    We are pleased to inform you that your bid won for the following Offsite Sales lot:
+                                    <br /><br />
+				    Lot# $LOTNUMBER, a $LOTDESCRIPTION
+                                    <br /><br />
+                                    Sold on  $SALEDATE at $OFFSITELOCATION
+                                    <br /><br />
+                                    Final Price was $HIGHBID 
+                                    <br /><br />
+				    As an offsite sales item, this lot is currently not at one of our locations. A separate email notification will be sent to you when this lot is ready to be picked up.
+				    <br /><br />
+				    If you have questions, please contact our location at $YARDNUMBER $YARDNAME $YARDPHONE.
+                                    <br /><br />
+                                    Thank you for doing business with Copart.
+                                    <br /><br />
+									
+<p style="text-align:left;font-size:12px;font-family:Arial;line-height:18px;color:#696a6d;margin:0;padding:0;">Please do not reply to this email.<br />This email address is not monitored for responses.</p>
+                                    
+                                    </td>
+                                    </tr>
+                                    </table>
+                     			</td>
+                                </tr>
+                                </table>
+                                </td>
+                                                             
+                                </tr>
+                            </table>
+                            </td>
+                        </tr>
+			<!-- ||| END ENGLISH -->
+
+
+
+
+					</table>
+                </td>
+            </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        </td>
+	</tr>
+            
+   #parse ("common_footer.vm")
+</table>
+<custom name="opencounter" type="tracking">
+</body>
+</html>

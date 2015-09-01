@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:int="http://www.springframework.org/schema/integration"
+	xmlns:int-jdbc="http://www.springframework.org/schema/integration/jdbc"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/integration http://www.springframework.org/schema/integration/spring-integration.xsd
+		http://www.springframework.org/schema/integration/jdbc http://www.springframework.org/schema/integration/jdbc/spring-integration-jdbc.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+		
+	<int:annotation-config/>
+	<int:channel id="processChannel"/>
+	<int-jdbc:inbound-channel-adapter channel="inboundChannel" data-source="dataSource" 
+				query="select e.EMAIL_ID, e.EMAIL_TEMPLATE_ID, et.TEMPLATE, e.TO_ADDRESS, e.COMPANY_CODE, e.PREFERRED_LANGUAGE, et.SUBJECT from EMAIL e 
+							join EMAIL_TEMPLATE et ON et.EMAIL_TEMPLATE_ID = e.EMAIL_TEMPLATE_ID
+							where e.PROCESSED_FLAG = 'N'" 
+				update="update email set processed_flag = 'I' where email_id in (:emailId)"
+				row-mapper="emailRecordRowMapper">
+		<int:poller fixed-delay="60000"/>
+	</int-jdbc:inbound-channel-adapter>
+	
+	<int:chain input-channel="inboundChannel">
+		<int:splitter/>
+		<int:header-enricher>
+			<int:header name="email.provider" value="${email.provider}"/>
+		</int:header-enricher>
+		<int:header-value-router header-name="email.provider"/>
+	</int:chain>
+
+	<int:service-activator input-channel="smtp" ref="SMTPEmailService" method="processEmail"/>
+	<int:service-activator input-channel="awshttp" ref="AWSEmailService" method="processEmail"/>
+	
+
+	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="${mail.server.host}" />
+		<property name="port" value="${mail.server.port}" />
+		<property name="username" value="${mail.server.username}" />
+		<property name="password" value="${mail.server.password}" />
+		<property name="javaMailProperties">
+    		<props>
+		        <prop key="mail.smtp.auth">true</prop>
+		    </props>
+    	</property>
+	</bean>
+
+ 	<bean id="velocityEngine" class="org.springframework.ui.velocity.VelocityEngineFactoryBean"> 
+ 		<property name="velocityProperties">
+    		<props>
+     	 		<prop key="resource.loader">file</prop>
+      			<prop key="file.resource.loader.class">
+        			org.apache.velocity.runtime.resource.loader.FileResourceLoader
+      			</prop>
+      			<prop key="file.resource.loader.path">${email.templates.location}</prop>
+      			<prop key="file.resource.loader.cache">false</prop>
+    		</props>
+  		</property>
+         <!--  <property name="resourceLoaderPath" value="${email.templates.location}"/> -->
+          <!-- <property name="preferFileSystemAccess" value="false"/> -->
+    </bean>
+          
+    <bean id="awsCredentials" class="com.amazonaws.auth.BasicAWSCredentials">
+    	<constructor-arg name="accessKey" value="${aws.accessKey}"/>
+    	<constructor-arg name="secretKey" value="${aws.secretKey}"/>    	
+    </bean> 
+    
+    <bean id="awsEmailClient" class="com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClient">
+    	<constructor-arg name="awsCredentials" ref="awsCredentials"/>
+    	<property name="endpoint" value="${aws.ses_endpoint}"/>
+    </bean>    
+    
+</beans>

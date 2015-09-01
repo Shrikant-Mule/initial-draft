@@ -1,0 +1,1042 @@
+2015-08-10 14:55:53,427 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 5744 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-10 14:55:53,428 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-10 14:55:54,994 [main] ERROR org.springframework.boot.SpringApplication - Application startup failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.solr.SolrAutoConfiguration.solrServer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:58)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:102)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:185)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:124)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:318)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:239)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:254)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:94)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:606)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:462)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:691)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at com.copart.figs.Application.main(Application.java:22)
+Caused by: java.lang.IllegalArgumentException: @ConditionalOnMissingBean annotations must specify at least one bean (type, name or annotation)
+	at org.springframework.util.Assert.isTrue(Assert.java:65)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$BeanSearchSpec.<init>(OnBeanCondition.java:219)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:88)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:45)
+	... 13 more
+2015-08-10 14:56:28,239 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 4660 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-10 14:56:28,239 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-10 14:56:29,704 [main] ERROR org.springframework.boot.SpringApplication - Application startup failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.solr.SolrAutoConfiguration.solrServer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:58)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:102)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:185)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:124)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:318)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:239)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:254)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:94)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:606)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:462)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:691)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at com.copart.figs.Application.main(Application.java:22)
+Caused by: java.lang.IllegalArgumentException: @ConditionalOnMissingBean annotations must specify at least one bean (type, name or annotation)
+	at org.springframework.util.Assert.isTrue(Assert.java:65)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$BeanSearchSpec.<init>(OnBeanCondition.java:219)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:88)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:45)
+	... 13 more
+2015-08-10 15:03:04,466 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 5516 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-10 15:03:04,466 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-10 15:03:05,795 [main] ERROR org.springframework.boot.SpringApplication - Application startup failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.solr.SolrAutoConfiguration.solrServer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:58)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:102)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:185)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:124)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:318)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:239)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:254)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:94)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:606)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:462)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:691)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at com.copart.figs.Application.main(Application.java:22)
+Caused by: java.lang.IllegalArgumentException: @ConditionalOnMissingBean annotations must specify at least one bean (type, name or annotation)
+	at org.springframework.util.Assert.isTrue(Assert.java:65)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$BeanSearchSpec.<init>(OnBeanCondition.java:219)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:88)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:45)
+	... 13 more
+2015-08-10 15:04:59,391 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 11808 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-10 15:04:59,392 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-10 15:05:00,826 [main] ERROR org.springframework.boot.SpringApplication - Application startup failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.solr.SolrAutoConfiguration.solrServer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:58)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:102)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:185)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:124)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:318)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:239)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:254)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:94)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:606)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:462)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:691)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at com.copart.figs.Application.main(Application.java:25)
+Caused by: java.lang.IllegalArgumentException: @ConditionalOnMissingBean annotations must specify at least one bean (type, name or annotation)
+	at org.springframework.util.Assert.isTrue(Assert.java:65)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$BeanSearchSpec.<init>(OnBeanCondition.java:219)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:88)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:45)
+	... 13 more
+2015-08-10 15:18:13,236 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 5744 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-10 15:18:13,236 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-10 15:18:14,601 [main] ERROR org.springframework.boot.SpringApplication - Application startup failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.solr.SolrAutoConfiguration.solrServer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:58)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:102)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:185)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:124)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:318)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:239)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:254)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:94)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:606)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:462)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:691)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at com.copart.figs.Application.main(Application.java:25)
+Caused by: java.lang.IllegalArgumentException: @ConditionalOnMissingBean annotations must specify at least one bean (type, name or annotation)
+	at org.springframework.util.Assert.isTrue(Assert.java:65)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$BeanSearchSpec.<init>(OnBeanCondition.java:219)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:88)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:45)
+	... 13 more
+2015-08-10 15:19:07,450 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 10124 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-10 15:19:07,450 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-10 15:19:08,958 [main] ERROR org.springframework.boot.SpringApplication - Application startup failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.solr.SolrAutoConfiguration.solrServer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:58)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:102)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:185)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:124)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:318)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:239)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:254)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:94)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:606)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:462)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:691)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at com.copart.figs.Application.main(Application.java:25)
+Caused by: java.lang.IllegalArgumentException: @ConditionalOnMissingBean annotations must specify at least one bean (type, name or annotation)
+	at org.springframework.util.Assert.isTrue(Assert.java:65)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$BeanSearchSpec.<init>(OnBeanCondition.java:219)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:88)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:45)
+	... 13 more
+2015-08-10 15:20:05,146 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 10764 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-10 15:20:05,146 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-10 15:20:06,399 [main] ERROR org.springframework.boot.SpringApplication - Application startup failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.solr.SolrAutoConfiguration.solrServer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:58)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:102)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:185)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:124)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:318)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:239)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:254)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:94)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:606)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:462)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:691)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at com.copart.figs.Application.main(Application.java:25)
+Caused by: java.lang.IllegalArgumentException: @ConditionalOnMissingBean annotations must specify at least one bean (type, name or annotation)
+	at org.springframework.util.Assert.isTrue(Assert.java:65)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition$BeanSearchSpec.<init>(OnBeanCondition.java:219)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:88)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:45)
+	... 13 more
+2015-08-10 15:27:34,228 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 11248 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-10 15:27:34,229 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-10 15:27:44,706 [main] INFO  com.copart.figs.Application - Started Application in 10.769 seconds (JVM running for 11.361)
+2015-08-10 15:28:19,465 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 11056 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-10 15:28:19,466 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-10 15:28:28,375 [main] INFO  com.copart.figs.Application - Started Application in 9.155 seconds (JVM running for 9.716)
+2015-08-10 15:35:30,588 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Auction Result : com.copart.figs.AuctionResult@4d3e0450[auctionLotOutboundId=1,countryCode=DE,apiKey=c0partation,vehicle=com.copart.figs.VehicleAuctionResult@f9437f0[lotNumber=50000001,facilityNumber=8001,memberNumber=700010003,highBidAmount=218000.0,bidHistory=[],warningFlag= ,warningMessage=],auctionServiceOrderStatus=AU07]
+2015-08-10 15:35:30,590 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - CAlling Cobalt web service to post the auction data.
+2015-08-10 15:35:41,828 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "PUT /vehicles/auction_result/50000001.json HTTP/1.1[\r][\n]"
+2015-08-10 15:35:41,828 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept: text/plain, application/json, application/*+json, */*[\r][\n]"
+2015-08-10 15:35:41,828 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2015-08-10 15:35:41,828 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Charset: utf-8[\r][\n]"
+2015-08-10 15:35:41,828 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 201[\r][\n]"
+2015-08-10 15:35:41,828 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: g1cobalt-dev3.copart.com[\r][\n]"
+2015-08-10 15:35:41,828 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-08-10 15:35:41,829 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-08-10 15:35:41,829 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-08-10 15:35:41,829 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+2015-08-10 15:35:41,829 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "{"auctionServiceOrderStatus":"AU07","api_key":"c0partation","vehicle":{"yard_num":"8001","member_num":"700010003","high_bid_amount":218000.0,"bid_histories":[],"warning_flag":" ","warning_message":""}}"
+2015-08-10 15:35:42,000 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 422 Unprocessable Entity[\r][\n]"
+2015-08-10 15:35:42,000 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Server: nginx/1.0.15[\r][\n]"
+2015-08-10 15:35:42,000 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Mon, 10 Aug 2015 20:35:42 GMT[\r][\n]"
+2015-08-10 15:35:42,000 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-08-10 15:35:42,000 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2015-08-10 15:35:42,000 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-08-10 15:35:42,000 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Status: 422 Unprocessable Entity[\r][\n]"
+2015-08-10 15:35:42,000 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2015-08-10 15:35:42,000 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2015-08-10 15:35:42,001 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2015-08-10 15:35:42,001 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2015-08-10 15:35:42,001 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2015-08-10 15:35:42,001 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+2015-08-10 15:35:42,001 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Request-Id: faa539b2-dd40-46d6-8216-18f280457110[\r][\n]"
+2015-08-10 15:35:42,001 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Runtime: 0.095876[\r][\n]"
+2015-08-10 15:35:42,001 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: __profilin=p%3Dt; path=/[\r][\n]"
+2015-08-10 15:35:42,001 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: BNI_G1COBALT-DEV3=0000000000000000000000001e3de40a00005000; HttpOnly[\r][\n]"
+2015-08-10 15:35:42,001 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 15:35:42,001 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "79[\r][\n]"
+2015-08-10 15:35:42,001 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x1e][0xb][0xc9]U[0x0][0x3]<[0x8c]K[\n]"
+2015-08-10 15:35:42,001 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x80]0[0x10]C[0xaf][0x12]f[0xe3][0xc6][0x13][0xf4]2[0xa5][0xda]Q[0xb][0xda][0xc2]t[0x14]D[0xbc][0xbb][0xad][0xbf]U[0xc8]{$[0x7][0xb1]H[0x92]L[0xe6][0xa0][0xdd][0x89][0xb7]q][0xec][0x9c][0xb4]&[0x99][0x1f][0xc1]'[0xce][0xb1]Q,N[0xfb][0x9][0x15][0xa3][0xe0][0x8e][0x5]i[0x80]N[0x8c][0xb2][0xa1][0x96]B[0xdc][0xdc][0x1c][0xbc][0xcd][0xea]DC[0x1c][0xef][0xab]R[0x94][0xcb][0xd9]+[0xf1][0xc9][0xba][0xc1]#[0xcf][0xf3][0x2][0x0][0x0][0xff][0xff][0x3][0x0][0xae][0xd3][0xa8][0x96][0x89][0x0][0x0][0x0][\r][\n]"
+2015-08-10 15:35:42,001 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+2015-08-10 15:35:42,001 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 15:35:42,025 [executor-1] DEBUG com.copart.figs.AuctionResultsProcessor - 422 Unprocessable Entity {"errors":{"yard_num_lot_num":"yard_num doesn't match yard number of the lot","invalid_starting_lot_state":"invalid starting lot state"}}
+2015-08-10 15:45:00,946 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 11480 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-10 15:45:00,946 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-10 15:45:09,333 [main] INFO  com.copart.figs.Application - Started Application in 8.643 seconds (JVM running for 9.183)
+2015-08-10 15:46:10,114 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Auction Result : com.copart.figs.AuctionResult@49fd7114[auctionLotOutboundId=1,countryCode=DE,apiKey=c0partation,vehicle=com.copart.figs.VehicleAuctionResult@20d01004[lotNumber=50000001,facilityNumber=8001,memberNumber=700010003,highBidAmount=218000.0,bidHistory=[],warningFlag= ,warningMessage=],auctionServiceOrderStatus=AU07]
+2015-08-10 15:46:10,118 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Calling Cobalt web service to post the auction data.
+2015-08-10 15:46:10,632 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "PUT /vehicles/auction_result/50000001.json HTTP/1.1[\r][\n]"
+2015-08-10 15:46:10,632 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept: text/plain, application/json, application/*+json, */*[\r][\n]"
+2015-08-10 15:46:10,632 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2015-08-10 15:46:10,633 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Charset: utf-8[\r][\n]"
+2015-08-10 15:46:10,633 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 201[\r][\n]"
+2015-08-10 15:46:10,633 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: g1cobalt-dev3.copart.com[\r][\n]"
+2015-08-10 15:46:10,633 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-08-10 15:46:10,633 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-08-10 15:46:10,633 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-08-10 15:46:10,633 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+2015-08-10 15:46:10,633 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "{"auctionServiceOrderStatus":"AU07","api_key":"c0partation","vehicle":{"yard_num":"8001","member_num":"700010003","high_bid_amount":218000.0,"bid_histories":[],"warning_flag":" ","warning_message":""}}"
+2015-08-10 15:46:10,765 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 422 Unprocessable Entity[\r][\n]"
+2015-08-10 15:46:10,765 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Server: nginx/1.0.15[\r][\n]"
+2015-08-10 15:46:10,765 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Mon, 10 Aug 2015 20:46:10 GMT[\r][\n]"
+2015-08-10 15:46:10,765 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-08-10 15:46:10,765 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2015-08-10 15:46:10,765 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-08-10 15:46:10,765 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Status: 422 Unprocessable Entity[\r][\n]"
+2015-08-10 15:46:10,765 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2015-08-10 15:46:10,766 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2015-08-10 15:46:10,766 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2015-08-10 15:46:10,766 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2015-08-10 15:46:10,766 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2015-08-10 15:46:10,766 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+2015-08-10 15:46:10,766 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Request-Id: 9dafd57d-4c5d-46eb-b5c4-1a8c7a39ff57[\r][\n]"
+2015-08-10 15:46:10,766 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Runtime: 0.068121[\r][\n]"
+2015-08-10 15:46:10,766 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: __profilin=p%3Dt; path=/[\r][\n]"
+2015-08-10 15:46:10,766 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: BNI_G1COBALT-DEV3=0000000000000000000000001e3de40a00005000; HttpOnly[\r][\n]"
+2015-08-10 15:46:10,766 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 15:46:10,766 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "79[\r][\n]"
+2015-08-10 15:46:10,766 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x92][\r][0xc9]U[0x0][0x3]<[0x8c]K[\n]"
+2015-08-10 15:46:10,767 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x80]0[0x10]C[0xaf][0x12]f[0xe3][0xc6][0x13][0xf4]2[0xa5][0xda]Q[0xb][0xda][0xc2]t[0x14]D[0xbc][0xbb][0xad][0xbf]U[0xc8]{$[0x7][0xb1]H[0x92]L[0xe6][0xa0][0xdd][0x89][0xb7]q][0xec][0x9c][0xb4]&[0x99][0x1f][0xc1]'[0xce][0xb1]Q,N[0xfb][0x9][0x15][0xa3][0xe0][0x8e][0x5]i[0x80]N[0x8c][0xb2][0xa1][0x96]B[0xdc][0xdc][0x1c][0xbc][0xcd][0xea]DC[0x1c][0xef][0xab]R[0x94][0xcb][0xd9]+[0xf1][0xc9][0xba][0xc1]#[0xcf][0xf3][0x2][0x0][0x0][0xff][0xff][0x3][0x0][0xae][0xd3][0xa8][0x96][0x89][0x0][0x0][0x0][\r][\n]"
+2015-08-10 15:46:10,767 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+2015-08-10 15:46:10,767 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 15:46:10,786 [executor-1] DEBUG com.copart.figs.AuctionResultsProcessor - 422 Unprocessable Entity {"errors":{"yard_num_lot_num":"yard_num doesn't match yard number of the lot","invalid_starting_lot_state":"invalid starting lot state"}}
+2015-08-10 15:47:21,310 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 12068 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-10 15:47:21,310 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-10 15:47:30,529 [main] INFO  com.copart.figs.Application - Started Application in 9.465 seconds (JVM running for 10.022)
+2015-08-10 15:48:31,337 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Auction Result : com.copart.figs.AuctionResult@58fcf73f[auctionLotOutboundId=1,countryCode=DE,apiKey=c0partation,vehicle=com.copart.figs.VehicleAuctionResult@39794e8a[lotNumber=50000001,facilityNumber=8001,memberNumber=700010003,highBidAmount=218000.0,bidHistory=[],warningFlag= ,warningMessage=],auctionServiceOrderStatus=AU07]
+2015-08-10 15:48:31,339 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Calling Cobalt web service to post the auction data.
+2015-08-10 15:48:31,866 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "PUT /vehicles/auction_result/50000001.json HTTP/1.1[\r][\n]"
+2015-08-10 15:48:31,866 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept: text/plain, application/json, application/*+json, */*[\r][\n]"
+2015-08-10 15:48:31,866 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2015-08-10 15:48:31,866 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Charset: utf-8[\r][\n]"
+2015-08-10 15:48:31,866 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 201[\r][\n]"
+2015-08-10 15:48:31,866 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: g1cobalt-dev3.copart.com[\r][\n]"
+2015-08-10 15:48:31,866 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-08-10 15:48:31,866 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-08-10 15:48:31,866 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-08-10 15:48:31,866 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+2015-08-10 15:48:31,866 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "{"auctionServiceOrderStatus":"AU07","api_key":"c0partation","vehicle":{"yard_num":"8001","member_num":"700010003","high_bid_amount":218000.0,"bid_histories":[],"warning_flag":" ","warning_message":""}}"
+2015-08-10 15:48:32,016 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 422 Unprocessable Entity[\r][\n]"
+2015-08-10 15:48:32,016 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Server: nginx/1.0.15[\r][\n]"
+2015-08-10 15:48:32,016 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Mon, 10 Aug 2015 20:48:31 GMT[\r][\n]"
+2015-08-10 15:48:32,016 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-08-10 15:48:32,016 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2015-08-10 15:48:32,017 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-08-10 15:48:32,017 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Status: 422 Unprocessable Entity[\r][\n]"
+2015-08-10 15:48:32,017 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2015-08-10 15:48:32,017 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2015-08-10 15:48:32,017 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2015-08-10 15:48:32,017 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2015-08-10 15:48:32,017 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2015-08-10 15:48:32,017 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+2015-08-10 15:48:32,017 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Request-Id: 796fe2fb-8929-4aaf-86a3-c6f48d6d16d0[\r][\n]"
+2015-08-10 15:48:32,017 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Runtime: 0.084797[\r][\n]"
+2015-08-10 15:48:32,017 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: __profilin=p%3Dt; path=/[\r][\n]"
+2015-08-10 15:48:32,017 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: BNI_G1COBALT-DEV3=0000000000000000000000001e3de40a00005000; HttpOnly[\r][\n]"
+2015-08-10 15:48:32,017 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 15:48:32,017 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "79[\r][\n]"
+2015-08-10 15:48:32,017 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x1f][0xe][0xc9]U[0x0][0x3]<[0x8c]K[\n]"
+2015-08-10 15:48:32,018 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x80]0[0x10]C[0xaf][0x12]f[0xe3][0xc6][0x13][0xf4]2[0xa5][0xda]Q[0xb][0xda][0xc2]t[0x14]D[0xbc][0xbb][0xad][0xbf]U[0xc8]{$[0x7][0xb1]H[0x92]L[0xe6][0xa0][0xdd][0x89][0xb7]q][0xec][0x9c][0xb4]&[0x99][0x1f][0xc1]'[0xce][0xb1]Q,N[0xfb][0x9][0x15][0xa3][0xe0][0x8e][0x5]i[0x80]N[0x8c][0xb2][0xa1][0x96]B[0xdc][0xdc][0x1c][0xbc][0xcd][0xea]DC[0x1c][0xef][0xab]R[0x94][0xcb][0xd9]+[0xf1][0xc9][0xba][0xc1]#[0xcf][0xf3][0x2][0x0][0x0][0xff][0xff][0x3][0x0][0xae][0xd3][0xa8][0x96][0x89][0x0][0x0][0x0][\r][\n]"
+2015-08-10 15:48:32,018 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+2015-08-10 15:48:32,018 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 15:48:32,038 [executor-1] DEBUG com.copart.figs.AuctionResultsProcessor - 422 Unprocessable Entity {"errors":{"yard_num_lot_num":"yard_num doesn't match yard number of the lot","invalid_starting_lot_state":"invalid starting lot state"}}
+2015-08-10 15:50:32,181 [executor-2] INFO  com.copart.figs.AuctionResultsProcessor - Auction Result : com.copart.figs.AuctionResult@43082ed5[auctionLotOutboundId=1,countryCode=DE,apiKey=c0partation,vehicle=com.copart.figs.VehicleAuctionResult@4dcfc8c4[lotNumber=50000001,facilityNumber=8001,memberNumber=700010003,highBidAmount=218000.0,bidHistory=[],warningFlag= ,warningMessage=],auctionServiceOrderStatus=AU07]
+2015-08-10 15:50:32,182 [executor-2] INFO  com.copart.figs.AuctionResultsProcessor - Calling Cobalt web service to post the auction data.
+2015-08-10 15:50:32,213 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "[read] I/O error: Connection reset"
+2015-08-10 15:50:32,475 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 >> "PUT /vehicles/auction_result/50000001.json HTTP/1.1[\r][\n]"
+2015-08-10 15:50:32,475 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept: text/plain, application/json, application/*+json, */*[\r][\n]"
+2015-08-10 15:50:32,475 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2015-08-10 15:50:32,475 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Charset: utf-8[\r][\n]"
+2015-08-10 15:50:32,475 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 201[\r][\n]"
+2015-08-10 15:50:32,475 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: g1cobalt-dev3.copart.com[\r][\n]"
+2015-08-10 15:50:32,475 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-08-10 15:50:32,475 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-08-10 15:50:32,475 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 >> "Cookie: BNI_G1COBALT-DEV3=0000000000000000000000001e3de40a00005000; __profilin=p%3Dt[\r][\n]"
+2015-08-10 15:50:32,475 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 >> "Cookie2: $Version=1[\r][\n]"
+2015-08-10 15:50:32,475 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-08-10 15:50:32,475 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+2015-08-10 15:50:32,475 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 >> "{"auctionServiceOrderStatus":"AU07","api_key":"c0partation","vehicle":{"yard_num":"8001","member_num":"700010003","high_bid_amount":218000.0,"bid_histories":[],"warning_flag":" ","warning_message":""}}"
+2015-08-10 15:50:32,604 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 422 Unprocessable Entity[\r][\n]"
+2015-08-10 15:50:32,604 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "Server: nginx/1.0.15[\r][\n]"
+2015-08-10 15:50:32,605 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Mon, 10 Aug 2015 20:50:32 GMT[\r][\n]"
+2015-08-10 15:50:32,605 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-08-10 15:50:32,605 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2015-08-10 15:50:32,605 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-08-10 15:50:32,605 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "Status: 422 Unprocessable Entity[\r][\n]"
+2015-08-10 15:50:32,605 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2015-08-10 15:50:32,605 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2015-08-10 15:50:32,605 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2015-08-10 15:50:32,605 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2015-08-10 15:50:32,605 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2015-08-10 15:50:32,605 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+2015-08-10 15:50:32,605 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Request-Id: 47168ca0-9a64-4b7e-af17-9c2ddc80e884[\r][\n]"
+2015-08-10 15:50:32,605 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Runtime: 0.064725[\r][\n]"
+2015-08-10 15:50:32,606 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: __profilin=p%3Dt; path=/[\r][\n]"
+2015-08-10 15:50:32,606 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: __profilin=p%3Dt; path=/[\r][\n]"
+2015-08-10 15:50:32,606 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: BNI_G1COBALT-DEV3=0000000000000000000000001e3de40a00005000; HttpOnly[\r][\n]"
+2015-08-10 15:50:32,606 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 15:50:32,606 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "79[\r][\n]"
+2015-08-10 15:50:32,606 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x98][0xe][0xc9]U[0x0][0x3]<[0x8c]K[\n]"
+2015-08-10 15:50:32,606 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x80]0[0x10]C[0xaf][0x12]f[0xe3][0xc6][0x13][0xf4]2[0xa5][0xda]Q[0xb][0xda][0xc2]t[0x14]D[0xbc][0xbb][0xad][0xbf]U[0xc8]{$[0x7][0xb1]H[0x92]L[0xe6][0xa0][0xdd][0x89][0xb7]q][0xec][0x9c][0xb4]&[0x99][0x1f][0xc1]'[0xce][0xb1]Q,N[0xfb][0x9][0x15][0xa3][0xe0][0x8e][0x5]i[0x80]N[0x8c][0xb2][0xa1][0x96]B[0xdc][0xdc][0x1c][0xbc][0xcd][0xea]DC[0x1c][0xef][0xab]R[0x94][0xcb][0xd9]+[0xf1][0xc9][0xba][0xc1]#[0xcf][0xf3][0x2][0x0][0x0][0xff][0xff][0x3][0x0][0xae][0xd3][0xa8][0x96][0x89][0x0][0x0][0x0][\r][\n]"
+2015-08-10 15:50:32,606 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+2015-08-10 15:50:32,606 [executor-2] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 15:50:32,607 [executor-2] DEBUG com.copart.figs.AuctionResultsProcessor - 422 Unprocessable Entity {"errors":{"yard_num_lot_num":"yard_num doesn't match yard number of the lot","invalid_starting_lot_state":"invalid starting lot state"}}
+2015-08-10 15:52:22,747 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 1792 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-10 15:52:22,747 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-10 15:52:31,417 [main] INFO  com.copart.figs.Application - Started Application in 8.906 seconds (JVM running for 9.451)
+2015-08-10 15:53:32,181 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Auction Result : com.copart.figs.AuctionResult@68cfbf73[auctionLotOutboundId=1,countryCode=DE,apiKey=c0partation,vehicle=com.copart.figs.VehicleAuctionResult@2b39c6fe[lotNumber=50000001,facilityNumber=8001,memberNumber=700010003,highBidAmount=218000.0,bidHistory=[],warningFlag= ,warningMessage=],auctionServiceOrderStatus=AU07]
+2015-08-10 15:53:32,184 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - ***** Calling Cobalt web service to post the auction data.
+2015-08-10 15:53:32,683 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "PUT /vehicles/auction_result/50000001.json HTTP/1.1[\r][\n]"
+2015-08-10 15:53:32,684 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept: text/plain, application/json, application/*+json, */*[\r][\n]"
+2015-08-10 15:53:32,684 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2015-08-10 15:53:32,684 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Charset: utf-8[\r][\n]"
+2015-08-10 15:53:32,684 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 201[\r][\n]"
+2015-08-10 15:53:32,684 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: g1cobalt-dev3.copart.com[\r][\n]"
+2015-08-10 15:53:32,684 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-08-10 15:53:32,684 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-08-10 15:53:32,684 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-08-10 15:53:32,684 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+2015-08-10 15:53:32,684 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "{"auctionServiceOrderStatus":"AU07","api_key":"c0partation","vehicle":{"yard_num":"8001","member_num":"700010003","high_bid_amount":218000.0,"bid_histories":[],"warning_flag":" ","warning_message":""}}"
+2015-08-10 15:53:32,936 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 422 Unprocessable Entity[\r][\n]"
+2015-08-10 15:53:32,937 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Server: nginx/1.0.15[\r][\n]"
+2015-08-10 15:53:32,937 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Mon, 10 Aug 2015 20:53:32 GMT[\r][\n]"
+2015-08-10 15:53:32,937 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-08-10 15:53:32,937 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2015-08-10 15:53:32,937 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-08-10 15:53:32,937 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Status: 422 Unprocessable Entity[\r][\n]"
+2015-08-10 15:53:32,937 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2015-08-10 15:53:32,937 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2015-08-10 15:53:32,937 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2015-08-10 15:53:32,937 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2015-08-10 15:53:32,937 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2015-08-10 15:53:32,937 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+2015-08-10 15:53:32,937 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Request-Id: 0b6b3c71-7458-41cf-945e-acbb81aad871[\r][\n]"
+2015-08-10 15:53:32,938 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Runtime: 0.179761[\r][\n]"
+2015-08-10 15:53:32,938 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: __profilin=p%3Dt; path=/[\r][\n]"
+2015-08-10 15:53:32,938 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: BNI_G1COBALT-DEV3=0000000000000000000000001e3de40a00005000; HttpOnly[\r][\n]"
+2015-08-10 15:53:32,938 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 15:53:32,938 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "79[\r][\n]"
+2015-08-10 15:53:32,938 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0]L[0xf][0xc9]U[0x0][0x3]<[0x8c]K[\n]"
+2015-08-10 15:53:32,938 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x80]0[0x10]C[0xaf][0x12]f[0xe3][0xc6][0x13][0xf4]2[0xa5][0xda]Q[0xb][0xda][0xc2]t[0x14]D[0xbc][0xbb][0xad][0xbf]U[0xc8]{$[0x7][0xb1]H[0x92]L[0xe6][0xa0][0xdd][0x89][0xb7]q][0xec][0x9c][0xb4]&[0x99][0x1f][0xc1]'[0xce][0xb1]Q,N[0xfb][0x9][0x15][0xa3][0xe0][0x8e][0x5]i[0x80]N[0x8c][0xb2][0xa1][0x96]B[0xdc][0xdc][0x1c][0xbc][0xcd][0xea]DC[0x1c][0xef][0xab]R[0x94][0xcb][0xd9]+[0xf1][0xc9][0xba][0xc1]#[0xcf][0xf3][0x2][0x0][0x0][0xff][0xff][0x3][0x0][0xae][0xd3][0xa8][0x96][0x89][0x0][0x0][0x0][\r][\n]"
+2015-08-10 15:53:32,938 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+2015-08-10 15:53:32,938 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 15:53:32,957 [executor-1] DEBUG com.copart.figs.AuctionResultsProcessor - 422 Unprocessable Entity {"errors":{"yard_num_lot_num":"yard_num doesn't match yard number of the lot","invalid_starting_lot_state":"invalid starting lot state"}}
+2015-08-10 16:04:15,146 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 9596 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-10 16:04:15,147 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-10 16:04:24,051 [main] INFO  com.copart.figs.Application - Started Application in 9.197 seconds (JVM running for 9.909)
+2015-08-10 16:05:24,890 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Auction Result : com.copart.figs.AuctionResult@62fc4ee8[auctionLotOutboundId=1,countryCode=DE,apiKey=c0partation,vehicle=com.copart.figs.VehicleAuctionResult@234d2568[lotNumber=50000001,facilityNumber=8001,memberNumber=700010003,highBidAmount=218000.0,bidHistory=[],warningFlag= ,warningMessage=],auctionServiceOrderStatus=AU07]
+2015-08-10 16:05:24,893 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - ***** Calling Cobalt web service to post the auction data.
+2015-08-10 16:05:25,393 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "PUT /vehicles/auction_result/50000001.json HTTP/1.1[\r][\n]"
+2015-08-10 16:05:25,393 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept: text/plain, application/json, application/*+json, */*[\r][\n]"
+2015-08-10 16:05:25,393 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2015-08-10 16:05:25,393 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Charset: utf-8[\r][\n]"
+2015-08-10 16:05:25,393 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 201[\r][\n]"
+2015-08-10 16:05:25,393 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: g1cobalt-dev3.copart.com[\r][\n]"
+2015-08-10 16:05:25,394 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-08-10 16:05:25,394 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-08-10 16:05:25,394 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-08-10 16:05:25,394 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+2015-08-10 16:05:25,394 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "{"auctionServiceOrderStatus":"AU07","api_key":"c0partation","vehicle":{"yard_num":"8001","member_num":"700010003","high_bid_amount":218000.0,"bid_histories":[],"warning_flag":" ","warning_message":""}}"
+2015-08-10 16:05:26,264 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 422 Unprocessable Entity[\r][\n]"
+2015-08-10 16:05:26,264 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Server: nginx/1.0.15[\r][\n]"
+2015-08-10 16:05:26,264 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Mon, 10 Aug 2015 21:05:26 GMT[\r][\n]"
+2015-08-10 16:05:26,264 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-08-10 16:05:26,264 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2015-08-10 16:05:26,265 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-08-10 16:05:26,265 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Status: 422 Unprocessable Entity[\r][\n]"
+2015-08-10 16:05:26,265 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2015-08-10 16:05:26,265 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2015-08-10 16:05:26,265 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2015-08-10 16:05:26,265 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2015-08-10 16:05:26,265 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2015-08-10 16:05:26,265 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+2015-08-10 16:05:26,265 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Request-Id: 0ecf36e2-4e17-4210-9e49-74324195ca8c[\r][\n]"
+2015-08-10 16:05:26,265 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Runtime: 0.804692[\r][\n]"
+2015-08-10 16:05:26,265 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: __profilin=p%3Dt; path=/[\r][\n]"
+2015-08-10 16:05:26,266 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: BNI_G1COBALT-DEV3=0000000000000000000000001e3de40a00005000; HttpOnly[\r][\n]"
+2015-08-10 16:05:26,266 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 16:05:26,266 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "79[\r][\n]"
+2015-08-10 16:05:26,266 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x16][0x12][0xc9]U[0x0][0x3]<[0x8c]K[\n]"
+2015-08-10 16:05:26,266 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x80]0[0x10]C[0xaf][0x12]f[0xe3][0xc6][0x13][0xf4]2[0xa5][0xda]Q[0xb][0xda][0xc2]t[0x14]D[0xbc][0xbb][0xad][0xbf]U[0xc8]{$[0x7][0xb1]H[0x92]L[0xe6][0xa0][0xdd][0x89][0xb7]q][0xec][0x9c][0xb4]&[0x99][0x1f][0xc1]'[0xce][0xb1]Q,N[0xfb][0x9][0x15][0xa3][0xe0][0x8e][0x5]i[0x80]N[0x8c][0xb2][0xa1][0x96]B[0xdc][0xdc][0x1c][0xbc][0xcd][0xea]DC[0x1c][0xef][0xab]R[0x94][0xcb][0xd9]+[0xf1][0xc9][0xba][0xc1]#[0xcf][0xf3][0x2][0x0][0x0][0xff][0xff][0x3][0x0][0xae][0xd3][0xa8][0x96][0x89][0x0][0x0][0x0][\r][\n]"
+2015-08-10 16:05:26,266 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+2015-08-10 16:05:26,266 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 16:05:26,286 [executor-1] ERROR com.copart.figs.AuctionResultsProcessor - Error while calling Cobalt web service: 422 Unprocessable Entity {"errors":{"yard_num_lot_num":"yard_num doesn't match yard number of the lot","invalid_starting_lot_state":"invalid starting lot state"}}
+2015-08-10 16:05:26,398 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Updating couchbase for lot # : 50000001
+2015-08-10 16:05:26,399 [executor-1] DEBUG com.copart.figs.AuctionResultsProcessor - Pushing to Couchbase : com.copart.figs.AuctionResult@62fc4ee8[auctionLotOutboundId=1,countryCode=DE,apiKey=c0partation,vehicle=com.copart.figs.VehicleAuctionResult@234d2568[lotNumber=50000001,facilityNumber=8001,memberNumber=700010003,highBidAmount=218000.0,bidHistory=[],warningFlag= ,warningMessage=],auctionServiceOrderStatus=AU07]
+2015-08-10 16:05:26,459 [executor-1] ERROR com.copart.figs.AuctionResultsProcessor - Exception while updating couchbase/solr : 
+java.lang.NullPointerException
+	at com.copart.figs.AuctionResultsProcessor.sendAuctionResultToCouchbase(AuctionResultsProcessor.java:176)
+	at com.copart.figs.AuctionResultsProcessor.sendAuctionResult(AuctionResultsProcessor.java:152)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.expression.spel.support.ReflectiveMethodExecutor.execute(ReflectiveMethodExecutor.java:112)
+	at org.springframework.expression.spel.ast.MethodReference.getValueInternal(MethodReference.java:129)
+	at org.springframework.expression.spel.ast.MethodReference.access$000(MethodReference.java:49)
+	at org.springframework.expression.spel.ast.MethodReference$MethodValueRef.getValue(MethodReference.java:342)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getTypedValue(SpelNodeImpl.java:131)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:330)
+	at org.springframework.integration.util.AbstractExpressionEvaluator.evaluateExpression(AbstractExpressionEvaluator.java:164)
+	at org.springframework.integration.util.MessagingMethodInvokerHelper.processInternal(MessagingMethodInvokerHelper.java:276)
+	at org.springframework.integration.util.MessagingMethodInvokerHelper.process(MessagingMethodInvokerHelper.java:142)
+	at org.springframework.integration.handler.MethodInvokingMessageProcessor.processMessage(MethodInvokingMessageProcessor.java:75)
+	at org.springframework.integration.handler.ServiceActivatingHandler.handleRequestMessage(ServiceActivatingHandler.java:71)
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:99)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:78)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:101)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.access$000(UnicastingDispatcher.java:48)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher$1.run(UnicastingDispatcher.java:92)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor$1.run(ErrorHandlingTaskExecutor.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-10 16:07:32,489 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 8384 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-10 16:07:32,489 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-10 16:07:40,801 [main] INFO  com.copart.figs.Application - Started Application in 8.552 seconds (JVM running for 9.094)
+2015-08-10 16:08:41,552 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Auction Result : com.copart.figs.AuctionResult@277a07c[auctionLotOutboundId=1,countryCode=DE,apiKey=c0partation,vehicle=com.copart.figs.VehicleAuctionResult@47855a8e[lotNumber=50000001,facilityNumber=8001,memberNumber=700010003,highBidAmount=218000.0,bidHistory=[],warningFlag= ,warningMessage=],auctionServiceOrderStatus=AU07]
+2015-08-10 16:08:41,557 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - ***** Calling Cobalt web service to post the auction data.
+2015-08-10 16:08:42,066 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "PUT /vehicles/auction_result/50000001.json HTTP/1.1[\r][\n]"
+2015-08-10 16:08:42,066 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept: text/plain, application/json, application/*+json, */*[\r][\n]"
+2015-08-10 16:08:42,066 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2015-08-10 16:08:42,066 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Charset: utf-8[\r][\n]"
+2015-08-10 16:08:42,066 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 201[\r][\n]"
+2015-08-10 16:08:42,066 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: g1cobalt-dev3.copart.com[\r][\n]"
+2015-08-10 16:08:42,066 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-08-10 16:08:42,066 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-08-10 16:08:42,066 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-08-10 16:08:42,066 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+2015-08-10 16:08:42,066 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "{"auctionServiceOrderStatus":"AU07","api_key":"c0partation","vehicle":{"yard_num":"8001","member_num":"700010003","high_bid_amount":218000.0,"bid_histories":[],"warning_flag":" ","warning_message":""}}"
+2015-08-10 16:08:42,232 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 422 Unprocessable Entity[\r][\n]"
+2015-08-10 16:08:42,232 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Server: nginx/1.0.15[\r][\n]"
+2015-08-10 16:08:42,232 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Mon, 10 Aug 2015 21:08:42 GMT[\r][\n]"
+2015-08-10 16:08:42,232 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-08-10 16:08:42,232 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2015-08-10 16:08:42,232 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-08-10 16:08:42,232 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Status: 422 Unprocessable Entity[\r][\n]"
+2015-08-10 16:08:42,232 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2015-08-10 16:08:42,232 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2015-08-10 16:08:42,232 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2015-08-10 16:08:42,232 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2015-08-10 16:08:42,233 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2015-08-10 16:08:42,233 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+2015-08-10 16:08:42,233 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Request-Id: 4bb16473-d15c-4a8e-9b0b-0c2534c5885c[\r][\n]"
+2015-08-10 16:08:42,233 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Runtime: 0.104729[\r][\n]"
+2015-08-10 16:08:42,233 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: __profilin=p%3Dt; path=/[\r][\n]"
+2015-08-10 16:08:42,233 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: BNI_G1COBALT-DEV3=0000000000000000000000001e3de40a00005000; HttpOnly[\r][\n]"
+2015-08-10 16:08:42,233 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 16:08:42,233 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "79[\r][\n]"
+2015-08-10 16:08:42,233 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0xda][0x12][0xc9]U[0x0][0x3]<[0x8c]K[\n]"
+2015-08-10 16:08:42,233 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x80]0[0x10]C[0xaf][0x12]f[0xe3][0xc6][0x13][0xf4]2[0xa5][0xda]Q[0xb][0xda][0xc2]t[0x14]D[0xbc][0xbb][0xad][0xbf]U[0xc8]{$[0x7][0xb1]H[0x92]L[0xe6][0xa0][0xdd][0x89][0xb7]q][0xec][0x9c][0xb4]&[0x99][0x1f][0xc1]'[0xce][0xb1]Q,N[0xfb][0x9][0x15][0xa3][0xe0][0x8e][0x5]i[0x80]N[0x8c][0xb2][0xa1][0x96]B[0xdc][0xdc][0x1c][0xbc][0xcd][0xea]DC[0x1c][0xef][0xab]R[0x94][0xcb][0xd9]+[0xf1][0xc9][0xba][0xc1]#[0xcf][0xf3][0x2][0x0][0x0][0xff][0xff][0x3][0x0][0xae][0xd3][0xa8][0x96][0x89][0x0][0x0][0x0][\r][\n]"
+2015-08-10 16:08:42,233 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+2015-08-10 16:08:42,233 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 16:08:42,254 [executor-1] ERROR com.copart.figs.AuctionResultsProcessor - Error while calling Cobalt web service: 422 Unprocessable Entity {"errors":{"yard_num_lot_num":"yard_num doesn't match yard number of the lot","invalid_starting_lot_state":"invalid starting lot state"}}
+2015-08-10 16:08:42,372 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Updating couchbase for lot # : 50000001
+2015-08-10 16:08:42,372 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Updated couchbase successfully for lot # : 50000001
+2015-08-10 16:08:42,372 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Updating SOLR for lot # : 50000001
+2015-08-10 16:08:42,373 [executor-1] INFO  com.copart.figs.SolrConnector - ************Into Solr
+2015-08-10 16:08:42,373 [executor-1] INFO  com.copart.figs.SolrConnector - null 0 0 0
+2015-08-10 16:08:42,374 [executor-1] ERROR com.copart.figs.AuctionResultsProcessor - Exception while updating couchbase/solr : 
+java.lang.NullPointerException
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.<init>(HttpSolrServer.java:143)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.<init>(HttpSolrServer.java:134)
+	at com.copart.figs.SolrConnector.send(SolrConnector.java:45)
+	at com.copart.figs.AuctionResultsProcessor.sendAuctionResultToSolr(AuctionResultsProcessor.java:169)
+	at com.copart.figs.AuctionResultsProcessor.sendAuctionResult(AuctionResultsProcessor.java:155)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.expression.spel.support.ReflectiveMethodExecutor.execute(ReflectiveMethodExecutor.java:112)
+	at org.springframework.expression.spel.ast.MethodReference.getValueInternal(MethodReference.java:129)
+	at org.springframework.expression.spel.ast.MethodReference.access$000(MethodReference.java:49)
+	at org.springframework.expression.spel.ast.MethodReference$MethodValueRef.getValue(MethodReference.java:342)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getTypedValue(SpelNodeImpl.java:131)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:330)
+	at org.springframework.integration.util.AbstractExpressionEvaluator.evaluateExpression(AbstractExpressionEvaluator.java:164)
+	at org.springframework.integration.util.MessagingMethodInvokerHelper.processInternal(MessagingMethodInvokerHelper.java:276)
+	at org.springframework.integration.util.MessagingMethodInvokerHelper.process(MessagingMethodInvokerHelper.java:142)
+	at org.springframework.integration.handler.MethodInvokingMessageProcessor.processMessage(MethodInvokingMessageProcessor.java:75)
+	at org.springframework.integration.handler.ServiceActivatingHandler.handleRequestMessage(ServiceActivatingHandler.java:71)
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:99)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:78)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:101)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.access$000(UnicastingDispatcher.java:48)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher$1.run(UnicastingDispatcher.java:92)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor$1.run(ErrorHandlingTaskExecutor.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-10 16:41:11,583 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 12248 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-10 16:41:11,583 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-10 16:41:20,982 [main] INFO  com.copart.figs.Application - Started Application in 9.648 seconds (JVM running for 10.303)
+2015-08-10 16:42:21,723 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Auction Result : com.copart.figs.AuctionResult@69198c0f[auctionLotOutboundId=1,countryCode=DE,apiKey=c0partation,vehicle=com.copart.figs.VehicleAuctionResult@20319691[lotNumber=50000001,facilityNumber=8001,memberNumber=700010003,highBidAmount=218000.0,bidHistory=[],warningFlag= ,warningMessage=],auctionServiceOrderStatus=AU07]
+2015-08-10 16:42:21,726 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - ***** Calling Cobalt web service to post the auction data.
+2015-08-10 16:42:22,286 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "PUT /vehicles/auction_result/50000001.json HTTP/1.1[\r][\n]"
+2015-08-10 16:42:22,286 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept: text/plain, application/json, application/*+json, */*[\r][\n]"
+2015-08-10 16:42:22,286 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2015-08-10 16:42:22,286 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Charset: utf-8[\r][\n]"
+2015-08-10 16:42:22,286 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 201[\r][\n]"
+2015-08-10 16:42:22,286 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: g1cobalt-dev3.copart.com[\r][\n]"
+2015-08-10 16:42:22,286 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-08-10 16:42:22,286 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-08-10 16:42:22,286 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-08-10 16:42:22,286 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+2015-08-10 16:42:22,287 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "{"auctionServiceOrderStatus":"AU07","api_key":"c0partation","vehicle":{"yard_num":"8001","member_num":"700010003","high_bid_amount":218000.0,"bid_histories":[],"warning_flag":" ","warning_message":""}}"
+2015-08-10 16:42:22,464 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 422 Unprocessable Entity[\r][\n]"
+2015-08-10 16:42:22,464 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Server: nginx/1.0.15[\r][\n]"
+2015-08-10 16:42:22,464 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Mon, 10 Aug 2015 21:42:23 GMT[\r][\n]"
+2015-08-10 16:42:22,464 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-08-10 16:42:22,464 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2015-08-10 16:42:22,464 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-08-10 16:42:22,464 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Status: 422 Unprocessable Entity[\r][\n]"
+2015-08-10 16:42:22,464 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2015-08-10 16:42:22,465 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2015-08-10 16:42:22,465 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2015-08-10 16:42:22,465 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2015-08-10 16:42:22,465 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2015-08-10 16:42:22,465 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+2015-08-10 16:42:22,465 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Request-Id: 85141595-ed18-4faf-92dc-b15772275fc1[\r][\n]"
+2015-08-10 16:42:22,465 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Runtime: 0.104923[\r][\n]"
+2015-08-10 16:42:22,465 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: __profilin=p%3Dt; path=/[\r][\n]"
+2015-08-10 16:42:22,465 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: BNI_G1COBALT-DEV3=0000000000000000000000001e3de40a00005000; HttpOnly[\r][\n]"
+2015-08-10 16:42:22,465 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 16:42:22,465 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "79[\r][\n]"
+2015-08-10 16:42:22,465 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0xbf][0x1a][0xc9]U[0x0][0x3]<[0x8c]K[\n]"
+2015-08-10 16:42:22,465 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x80]0[0x10]C[0xaf][0x12]f[0xe3][0xc6][0x13][0xf4]2[0xa5][0xda]Q[0xb][0xda][0xc2]t[0x14]D[0xbc][0xbb][0xad][0xbf]U[0xc8]{$[0x7][0xb1]H[0x92]L[0xe6][0xa0][0xdd][0x89][0xb7]q][0xec][0x9c][0xb4]&[0x99][0x1f][0xc1]'[0xce][0xb1]Q,N[0xfb][0x9][0x15][0xa3][0xe0][0x8e][0x5]i[0x80]N[0x8c][0xb2][0xa1][0x96]B[0xdc][0xdc][0x1c][0xbc][0xcd][0xea]DC[0x1c][0xef][0xab]R[0x94][0xcb][0xd9]+[0xf1][0xc9][0xba][0xc1]#[0xcf][0xf3][0x2][0x0][0x0][0xff][0xff][0x3][0x0][0xae][0xd3][0xa8][0x96][0x89][0x0][0x0][0x0][\r][\n]"
+2015-08-10 16:42:22,465 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+2015-08-10 16:42:22,466 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 16:42:22,485 [executor-1] ERROR com.copart.figs.AuctionResultsProcessor - Error while calling Cobalt web service: 422 Unprocessable Entity {"errors":{"yard_num_lot_num":"yard_num doesn't match yard number of the lot","invalid_starting_lot_state":"invalid starting lot state"}}
+2015-08-10 16:42:22,601 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Updating couchbase for lot # : 50000001
+2015-08-10 16:42:22,601 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Updated couchbase successfully for lot # : 50000001
+2015-08-10 16:42:22,601 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Updating SOLR for lot # : 50000001
+2015-08-10 16:42:22,601 [executor-1] INFO  com.copart.figs.SolrConnector - ************Into Solr
+2015-08-10 16:42:22,601 [executor-1] INFO  com.copart.figs.SolrConnector - http://rnd1sr301.copart.com:8080/solr/GLots 3000 10000 3
+2015-08-10 16:42:22,652 [executor-1] INFO  com.copart.figs.SolrConnector - SolrInputDocument(fields: [ID=50000001, LOT_NUMBER=50000001, YARD_NUMBER=8001, =700010003, HIGH_BID=218000.0])
+2015-08-10 16:42:22,801 [executor-1] DEBUG org.apache.http.wire -  >> "POST /solr/GLots/update?wt=xml&version=2.2 HTTP/1.1[\r][\n]"
+2015-08-10 16:42:22,802 [executor-1] DEBUG org.apache.http.wire -  >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2015-08-10 16:42:22,802 [executor-1] DEBUG org.apache.http.wire -  >> "Transfer-Encoding: chunked[\r][\n]"
+2015-08-10 16:42:22,802 [executor-1] DEBUG org.apache.http.wire -  >> "Content-Type: application/xml; charset=UTF-8[\r][\n]"
+2015-08-10 16:42:22,802 [executor-1] DEBUG org.apache.http.wire -  >> "Host: rnd1sr301.copart.com:8080[\r][\n]"
+2015-08-10 16:42:22,802 [executor-1] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2015-08-10 16:42:22,802 [executor-1] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2015-08-10 16:42:22,802 [executor-1] DEBUG org.apache.http.wire -  >> "d9[\r][\n]"
+2015-08-10 16:42:22,802 [executor-1] DEBUG org.apache.http.wire -  >> "<add><doc boost="1.0"><field name="ID">50000001</field><field name="LOT_NUMBER">50000001</field><field name="YARD_NUMBER">8001</field><field name="">700010003</field><field name="HIGH_BID">218000.0</field></doc></add>"
+2015-08-10 16:42:22,802 [executor-1] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2015-08-10 16:42:22,802 [executor-1] DEBUG org.apache.http.wire -  >> "0[\r][\n]"
+2015-08-10 16:42:22,802 [executor-1] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2015-08-10 16:42:22,869 [executor-1] DEBUG org.apache.http.wire -  << "HTTP/1.1 400 Bad Request[\r][\n]"
+2015-08-10 16:42:22,870 [executor-1] DEBUG org.apache.http.wire -  << "Content-Type: application/xml; charset=UTF-8[\r][\n]"
+2015-08-10 16:42:22,870 [executor-1] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+2015-08-10 16:42:22,870 [executor-1] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2015-08-10 16:42:22,878 [executor-1] DEBUG org.apache.http.wire -  << "103[\r][\n]"
+2015-08-10 16:42:22,878 [executor-1] DEBUG org.apache.http.wire -  << "<?xml version="1.0" encoding="UTF-8"?>[\n]"
+2015-08-10 16:42:22,878 [executor-1] DEBUG org.apache.http.wire -  << "<response>[\n]"
+2015-08-10 16:42:22,878 [executor-1] DEBUG org.apache.http.wire -  << "<lst name="responseHeader"><int name="status">400</int><int name="QTime">7</int></lst><lst name="error"><str name="msg">ERROR: [doc=50000001] unknown field ''</str><int name="code">400</int></lst>[\n]"
+2015-08-10 16:42:22,878 [executor-1] DEBUG org.apache.http.wire -  << "</response>[\n]"
+2015-08-10 16:42:22,907 [executor-1] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2015-08-10 16:42:22,907 [executor-1] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+2015-08-10 16:42:22,907 [executor-1] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2015-08-10 16:42:22,908 [executor-1] INFO  com.copart.figs.SolrConnector - *************Solr Exception: ERROR: [doc=50000001] unknown field ''
+org.apache.solr.client.solrj.impl.HttpSolrServer$RemoteSolrException: ERROR: [doc=50000001] unknown field ''
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:495)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:199)
+	at org.apache.solr.client.solrj.request.AbstractUpdateRequest.process(AbstractUpdateRequest.java:118)
+	at org.apache.solr.client.solrj.SolrServer.add(SolrServer.java:116)
+	at org.apache.solr.client.solrj.SolrServer.add(SolrServer.java:102)
+	at com.copart.figs.SolrConnector.send(SolrConnector.java:68)
+	at com.copart.figs.AuctionResultsProcessor.sendAuctionResult(AuctionResultsProcessor.java:154)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.expression.spel.support.ReflectiveMethodExecutor.execute(ReflectiveMethodExecutor.java:112)
+	at org.springframework.expression.spel.ast.MethodReference.getValueInternal(MethodReference.java:129)
+	at org.springframework.expression.spel.ast.MethodReference.access$000(MethodReference.java:49)
+	at org.springframework.expression.spel.ast.MethodReference$MethodValueRef.getValue(MethodReference.java:342)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getTypedValue(SpelNodeImpl.java:131)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:330)
+	at org.springframework.integration.util.AbstractExpressionEvaluator.evaluateExpression(AbstractExpressionEvaluator.java:164)
+	at org.springframework.integration.util.MessagingMethodInvokerHelper.processInternal(MessagingMethodInvokerHelper.java:276)
+	at org.springframework.integration.util.MessagingMethodInvokerHelper.process(MessagingMethodInvokerHelper.java:142)
+	at org.springframework.integration.handler.MethodInvokingMessageProcessor.processMessage(MethodInvokingMessageProcessor.java:75)
+	at org.springframework.integration.handler.ServiceActivatingHandler.handleRequestMessage(ServiceActivatingHandler.java:71)
+	at org.springframework.integration.handler.AbstractReplyProducingMessageHandler.handleMessageInternal(AbstractReplyProducingMessageHandler.java:99)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:78)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:116)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:101)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.access$000(UnicastingDispatcher.java:48)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher$1.run(UnicastingDispatcher.java:92)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor$1.run(ErrorHandlingTaskExecutor.java:52)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-10 16:42:22,910 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Updated SOLR successfully for lot # : 50000001
+2015-08-10 16:48:09,147 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 11348 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-10 16:48:09,147 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-10 16:48:17,633 [main] INFO  com.copart.figs.Application - Started Application in 8.737 seconds (JVM running for 9.31)
+2015-08-10 16:48:18,109 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Auction Result : com.copart.figs.AuctionResult@1c7a05bf[auctionLotOutboundId=1,countryCode=DE,apiKey=c0partation,vehicle=com.copart.figs.VehicleAuctionResult@57c7cccb[lotNumber=50000001,facilityNumber=8001,memberNumber=700010003,highBidAmount=218000.0,bidHistory=[],warningFlag= ,warningMessage=],auctionServiceOrderStatus=AU07]
+2015-08-10 16:48:18,111 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - ***** Calling Cobalt web service to post the auction data.
+2015-08-10 16:48:21,986 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "PUT /vehicles/auction_result/50000001.json HTTP/1.1[\r][\n]"
+2015-08-10 16:48:21,986 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept: text/plain, application/json, application/*+json, */*[\r][\n]"
+2015-08-10 16:48:21,987 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2015-08-10 16:48:21,987 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Charset: utf-8[\r][\n]"
+2015-08-10 16:48:21,987 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 201[\r][\n]"
+2015-08-10 16:48:21,988 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: g1cobalt-dev3.copart.com[\r][\n]"
+2015-08-10 16:48:21,988 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-08-10 16:48:21,988 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-08-10 16:48:21,988 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-08-10 16:48:21,988 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+2015-08-10 16:48:21,988 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "{"auctionServiceOrderStatus":"AU07","api_key":"c0partation","vehicle":{"yard_num":"8001","member_num":"700010003","high_bid_amount":218000.0,"bid_histories":[],"warning_flag":" ","warning_message":""}}"
+2015-08-10 16:48:22,196 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 422 Unprocessable Entity[\r][\n]"
+2015-08-10 16:48:22,197 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Server: nginx/1.0.15[\r][\n]"
+2015-08-10 16:48:22,197 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Mon, 10 Aug 2015 21:48:22 GMT[\r][\n]"
+2015-08-10 16:48:22,197 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-08-10 16:48:22,197 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2015-08-10 16:48:22,197 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-08-10 16:48:22,197 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Status: 422 Unprocessable Entity[\r][\n]"
+2015-08-10 16:48:22,197 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2015-08-10 16:48:22,197 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2015-08-10 16:48:22,197 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2015-08-10 16:48:22,198 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2015-08-10 16:48:22,198 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2015-08-10 16:48:22,198 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+2015-08-10 16:48:22,198 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Request-Id: 2280b60f-88aa-4c3a-9d0b-51a053a4d6e1[\r][\n]"
+2015-08-10 16:48:22,198 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Runtime: 0.137275[\r][\n]"
+2015-08-10 16:48:22,198 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: __profilin=p%3Dt; path=/[\r][\n]"
+2015-08-10 16:48:22,198 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: BNI_G1COBALT-DEV3=0000000000000000000000001e3de40a00005000; HttpOnly[\r][\n]"
+2015-08-10 16:48:22,198 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 16:48:22,198 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "79[\r][\n]"
+2015-08-10 16:48:22,198 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0]&[0x1c][0xc9]U[0x0][0x3]<[0x8c]K[\n]"
+2015-08-10 16:48:22,198 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x80]0[0x10]C[0xaf][0x12]f[0xe3][0xc6][0x13][0xf4]2[0xa5][0xda]Q[0xb][0xda][0xc2]t[0x14]D[0xbc][0xbb][0xad][0xbf]U[0xc8]{$[0x7][0xb1]H[0x92]L[0xe6][0xa0][0xdd][0x89][0xb7]q][0xec][0x9c][0xb4]&[0x99][0x1f][0xc1]'[0xce][0xb1]Q,N[0xfb][0x9][0x15][0xa3][0xe0][0x8e][0x5]i[0x80]N[0x8c][0xb2][0xa1][0x96]B[0xdc][0xdc][0x1c][0xbc][0xcd][0xea]DC[0x1c][0xef][0xab]R[0x94][0xcb][0xd9]+[0xf1][0xc9][0xba][0xc1]#[0xcf][0xf3][0x2][0x0][0x0][0xff][0xff][0x3][0x0][0xae][0xd3][0xa8][0x96][0x89][0x0][0x0][0x0][\r][\n]"
+2015-08-10 16:48:22,198 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+2015-08-10 16:48:22,198 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 16:48:22,218 [executor-1] ERROR com.copart.figs.AuctionResultsProcessor - Error while calling Cobalt web service: 422 Unprocessable Entity {"errors":{"yard_num_lot_num":"yard_num doesn't match yard number of the lot","invalid_starting_lot_state":"invalid starting lot state"}}
+2015-08-10 16:48:22,353 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Updating couchbase for lot # : 50000001
+2015-08-10 16:48:22,353 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Updated couchbase successfully for lot # : 50000001
+2015-08-10 16:48:22,353 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Updating SOLR for lot # : 50000001
+2015-08-10 16:48:22,353 [executor-1] INFO  com.copart.figs.SolrConnector - ************Into Solr
+2015-08-10 16:48:22,353 [executor-1] INFO  com.copart.figs.SolrConnector - http://rnd1sr301.copart.com:8080/solr/GLots 3000 10000 3
+2015-08-10 16:48:22,371 [executor-1] INFO  com.copart.figs.SolrConnector - SolrInputDocument(fields: [ID=50000001, LOT_NUMBER=50000001, HIGH_BID=218000.0])
+2015-08-10 16:48:22,461 [executor-1] DEBUG org.apache.http.wire -  >> "POST /solr/GLots/update?wt=xml&version=2.2 HTTP/1.1[\r][\n]"
+2015-08-10 16:48:22,461 [executor-1] DEBUG org.apache.http.wire -  >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2015-08-10 16:48:22,461 [executor-1] DEBUG org.apache.http.wire -  >> "Transfer-Encoding: chunked[\r][\n]"
+2015-08-10 16:48:22,461 [executor-1] DEBUG org.apache.http.wire -  >> "Content-Type: application/xml; charset=UTF-8[\r][\n]"
+2015-08-10 16:48:22,461 [executor-1] DEBUG org.apache.http.wire -  >> "Host: rnd1sr301.copart.com:8080[\r][\n]"
+2015-08-10 16:48:22,461 [executor-1] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2015-08-10 16:48:22,461 [executor-1] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2015-08-10 16:48:22,461 [executor-1] DEBUG org.apache.http.wire -  >> "93[\r][\n]"
+2015-08-10 16:48:22,461 [executor-1] DEBUG org.apache.http.wire -  >> "<add><doc boost="1.0"><field name="ID">50000001</field><field name="LOT_NUMBER">50000001</field><field name="HIGH_BID">218000.0</field></doc></add>"
+2015-08-10 16:48:22,462 [executor-1] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2015-08-10 16:48:22,462 [executor-1] DEBUG org.apache.http.wire -  >> "0[\r][\n]"
+2015-08-10 16:48:22,462 [executor-1] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2015-08-10 16:48:22,565 [executor-1] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+2015-08-10 16:48:22,566 [executor-1] DEBUG org.apache.http.wire -  << "Content-Type: application/xml; charset=UTF-8[\r][\n]"
+2015-08-10 16:48:22,569 [executor-1] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+2015-08-10 16:48:22,569 [executor-1] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2015-08-10 16:48:22,579 [executor-1] DEBUG org.apache.http.wire -  << "94[\r][\n]"
+2015-08-10 16:48:22,579 [executor-1] DEBUG org.apache.http.wire -  << "<?xml version="1.0" encoding="UTF-8"?>[\n]"
+2015-08-10 16:48:22,579 [executor-1] DEBUG org.apache.http.wire -  << "<response>[\n]"
+2015-08-10 16:48:22,579 [executor-1] DEBUG org.apache.http.wire -  << "<lst name="responseHeader"><int name="status">0</int><int name="QTime">44</int></lst>[\n]"
+2015-08-10 16:48:22,579 [executor-1] DEBUG org.apache.http.wire -  << "</response>[\n]"
+2015-08-10 16:48:22,613 [executor-1] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2015-08-10 16:48:22,613 [executor-1] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+2015-08-10 16:48:22,613 [executor-1] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2015-08-10 16:48:22,617 [executor-1] DEBUG org.apache.http.wire -  >> "POST /solr/GLots/update HTTP/1.1[\r][\n]"
+2015-08-10 16:48:22,617 [executor-1] DEBUG org.apache.http.wire -  >> "Content-Charset: UTF-8[\r][\n]"
+2015-08-10 16:48:22,617 [executor-1] DEBUG org.apache.http.wire -  >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2015-08-10 16:48:22,617 [executor-1] DEBUG org.apache.http.wire -  >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2015-08-10 16:48:22,617 [executor-1] DEBUG org.apache.http.wire -  >> "Content-Length: 65[\r][\n]"
+2015-08-10 16:48:22,617 [executor-1] DEBUG org.apache.http.wire -  >> "Host: rnd1sr301.copart.com:8080[\r][\n]"
+2015-08-10 16:48:22,617 [executor-1] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2015-08-10 16:48:22,617 [executor-1] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2015-08-10 16:48:22,618 [executor-1] DEBUG org.apache.http.wire -  >> "commit=true&softCommit=false&waitSearcher=true&wt=xml&version=2.2"
+2015-08-10 16:48:22,893 [executor-1] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+2015-08-10 16:48:22,893 [executor-1] DEBUG org.apache.http.wire -  << "Content-Type: application/xml; charset=UTF-8[\r][\n]"
+2015-08-10 16:48:22,893 [executor-1] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+2015-08-10 16:48:22,893 [executor-1] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2015-08-10 16:48:22,893 [executor-1] DEBUG org.apache.http.wire -  << "95[\r][\n]"
+2015-08-10 16:48:22,893 [executor-1] DEBUG org.apache.http.wire -  << "<?xml version="1.0" encoding="UTF-8"?>[\n]"
+2015-08-10 16:48:22,893 [executor-1] DEBUG org.apache.http.wire -  << "<response>[\n]"
+2015-08-10 16:48:22,894 [executor-1] DEBUG org.apache.http.wire -  << "<lst name="responseHeader"><int name="status">0</int><int name="QTime">209</int></lst>[\n]"
+2015-08-10 16:48:22,894 [executor-1] DEBUG org.apache.http.wire -  << "</response>[\n]"
+2015-08-10 16:48:22,894 [executor-1] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2015-08-10 16:48:22,894 [executor-1] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+2015-08-10 16:48:22,894 [executor-1] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2015-08-10 16:48:22,894 [executor-1] INFO  com.copart.figs.SolrConnector - ****************Inserted into solr
+2015-08-10 16:48:22,894 [executor-1] INFO  com.copart.figs.SolrConnector - Successfully added lot#50000001 Solr
+2015-08-10 16:48:22,894 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Updated SOLR successfully for lot # : 50000001
+2015-08-10 17:35:12,015 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 10624 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-10 17:35:12,015 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-10 17:35:20,491 [main] INFO  com.copart.figs.Application - Started Application in 8.726 seconds (JVM running for 9.321)
+2015-08-10 17:36:21,247 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Auction Result : com.copart.figs.AuctionResult@2a59dcc1[auctionLotOutboundId=1,countryCode=DE,apiKey=c0partation,vehicle=com.copart.figs.VehicleAuctionResult@226fe204[lotNumber=50000001,facilityNumber=8001,memberNumber=700010003,highBidAmount=218000.0,bidHistory=[],warningFlag= ,warningMessage=],auctionServiceOrderStatus=AU07]
+2015-08-10 17:36:21,250 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - ***** Calling Cobalt web service to post the auction data.
+2015-08-10 17:36:21,746 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "PUT /vehicles/auction_result/50000001.json HTTP/1.1[\r][\n]"
+2015-08-10 17:36:21,746 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept: text/plain, application/json, application/*+json, */*[\r][\n]"
+2015-08-10 17:36:21,746 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2015-08-10 17:36:21,746 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Charset: utf-8[\r][\n]"
+2015-08-10 17:36:21,746 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 201[\r][\n]"
+2015-08-10 17:36:21,746 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: g1cobalt-dev3.copart.com[\r][\n]"
+2015-08-10 17:36:21,746 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-08-10 17:36:21,746 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-08-10 17:36:21,746 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-08-10 17:36:21,746 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+2015-08-10 17:36:21,746 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "{"auctionServiceOrderStatus":"AU07","api_key":"c0partation","vehicle":{"yard_num":"8001","member_num":"700010003","high_bid_amount":218000.0,"bid_histories":[],"warning_flag":" ","warning_message":""}}"
+2015-08-10 17:36:21,934 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 422 Unprocessable Entity[\r][\n]"
+2015-08-10 17:36:21,935 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Server: nginx/1.0.15[\r][\n]"
+2015-08-10 17:36:21,935 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Mon, 10 Aug 2015 22:36:22 GMT[\r][\n]"
+2015-08-10 17:36:21,935 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-08-10 17:36:21,935 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2015-08-10 17:36:21,935 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-08-10 17:36:21,935 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Status: 422 Unprocessable Entity[\r][\n]"
+2015-08-10 17:36:21,935 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2015-08-10 17:36:21,935 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2015-08-10 17:36:21,935 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2015-08-10 17:36:21,935 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2015-08-10 17:36:21,936 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2015-08-10 17:36:21,936 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+2015-08-10 17:36:21,936 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Request-Id: c5a9f129-239c-42f8-a073-b01d3f33b850[\r][\n]"
+2015-08-10 17:36:21,936 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Runtime: 0.125305[\r][\n]"
+2015-08-10 17:36:21,936 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: __profilin=p%3Dt; path=/[\r][\n]"
+2015-08-10 17:36:21,936 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: BNI_G1COBALT-DEV3=0000000000000000000000001e3de40a00005000; HttpOnly[\r][\n]"
+2015-08-10 17:36:21,936 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 17:36:21,936 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "79[\r][\n]"
+2015-08-10 17:36:21,936 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0]f'[0xc9]U[0x0][0x3]<[0x8c]K[\n]"
+2015-08-10 17:36:21,936 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x80]0[0x10]C[0xaf][0x12]f[0xe3][0xc6][0x13][0xf4]2[0xa5][0xda]Q[0xb][0xda][0xc2]t[0x14]D[0xbc][0xbb][0xad][0xbf]U[0xc8]{$[0x7][0xb1]H[0x92]L[0xe6][0xa0][0xdd][0x89][0xb7]q][0xec][0x9c][0xb4]&[0x99][0x1f][0xc1]'[0xce][0xb1]Q,N[0xfb][0x9][0x15][0xa3][0xe0][0x8e][0x5]i[0x80]N[0x8c][0xb2][0xa1][0x96]B[0xdc][0xdc][0x1c][0xbc][0xcd][0xea]DC[0x1c][0xef][0xab]R[0x94][0xcb][0xd9]+[0xf1][0xc9][0xba][0xc1]#[0xcf][0xf3][0x2][0x0][0x0][0xff][0xff][0x3][0x0][0xae][0xd3][0xa8][0x96][0x89][0x0][0x0][0x0][\r][\n]"
+2015-08-10 17:36:21,936 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+2015-08-10 17:36:21,936 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-10 17:36:21,957 [executor-1] ERROR com.copart.figs.AuctionResultsProcessor - Error while calling Cobalt web service: 422 Unprocessable Entity {"errors":{"yard_num_lot_num":"yard_num doesn't match yard number of the lot","invalid_starting_lot_state":"invalid starting lot state"}}
+2015-08-11 12:00:06,198 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 11056 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-11 12:00:06,215 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-11 12:00:16,574 [main] INFO  com.copart.figs.Application - Started Application in 10.626 seconds (JVM running for 11.59)
+2015-08-11 12:01:18,484 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Auction Result : com.copart.figs.AuctionResult@60622f3a[auctionLotOutboundId=1,countryCode=DE,apiKey=c0partation,vehicle=com.copart.figs.VehicleAuctionResult@54421a13[lotNumber=50000001,facilityNumber=8001,memberNumber=700010003,highBidAmount=218000.0,bidHistory=[],warningFlag= ,warningMessage=],auctionServiceOrderStatus=AU07]
+2015-08-11 12:01:18,486 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - ***** Calling Cobalt web service to post the auction data.
+2015-08-11 12:01:19,188 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "PUT /vehicles/auction_result/50000001.json HTTP/1.1[\r][\n]"
+2015-08-11 12:01:19,188 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept: text/plain, application/json, application/*+json, */*[\r][\n]"
+2015-08-11 12:01:19,189 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2015-08-11 12:01:19,189 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Charset: utf-8[\r][\n]"
+2015-08-11 12:01:19,189 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 201[\r][\n]"
+2015-08-11 12:01:19,189 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: g1cobalt-dev3.copart.com[\r][\n]"
+2015-08-11 12:01:19,189 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-08-11 12:01:19,189 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-08-11 12:01:19,189 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-08-11 12:01:19,189 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+2015-08-11 12:01:19,189 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "{"auctionServiceOrderStatus":"AU07","api_key":"c0partation","vehicle":{"yard_num":"8001","member_num":"700010003","high_bid_amount":218000.0,"bid_histories":[],"warning_flag":" ","warning_message":""}}"
+2015-08-11 12:01:22,887 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 422 Unprocessable Entity[\r][\n]"
+2015-08-11 12:01:22,887 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Server: nginx/1.0.15[\r][\n]"
+2015-08-11 12:01:22,887 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Tue, 11 Aug 2015 17:02:17 GMT[\r][\n]"
+2015-08-11 12:01:22,887 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-08-11 12:01:22,887 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2015-08-11 12:01:22,887 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-08-11 12:01:22,887 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Status: 422 Unprocessable Entity[\r][\n]"
+2015-08-11 12:01:22,887 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2015-08-11 12:01:22,887 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2015-08-11 12:01:22,887 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2015-08-11 12:01:22,887 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2015-08-11 12:01:22,888 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2015-08-11 12:01:22,888 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+2015-08-11 12:01:22,888 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Request-Id: e1c8d73d-410a-47e1-9da3-d8a57b7b83aa[\r][\n]"
+2015-08-11 12:01:22,888 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Runtime: 3.625292[\r][\n]"
+2015-08-11 12:01:22,888 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: __profilin=p%3Dt; path=/[\r][\n]"
+2015-08-11 12:01:22,888 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: BNI_G1COBALT-DEV3=0000000000000000000000001d3de40a00005000; HttpOnly[\r][\n]"
+2015-08-11 12:01:22,888 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-11 12:01:22,888 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "79[\r][\n]"
+2015-08-11 12:01:22,888 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x99]*[0xca]U[0x0][0x3]<[0x8c]K[\n]"
+2015-08-11 12:01:22,888 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x80]0[0x10]C[0xaf][0x12]f[0xe3][0xc6][0x13][0xf4]2[0xa5][0xda]Q[0xb][0xda][0xc2]t[0x14]D[0xbc][0xbb][0xad][0xbf]U[0xc8]{$[0x7][0xb1]H[0x92]L[0xe6][0xa0][0xdd][0x89][0xb7]q][0xec][0x9c][0xb4]&[0x99][0x1f][0xc1]'[0xce][0xb1]Q,N[0xfb][0x9][0x15][0xa3][0xe0][0x8e][0x5]i[0x80]N[0x8c][0xb2][0xa1][0x96]B[0xdc][0xdc][0x1c][0xbc][0xcd][0xea]DC[0x1c][0xef][0xab]R[0x94][0xcb][0xd9]+[0xf1][0xc9][0xba][0xc1]#[0xcf][0xf3][0x2][0x0][0x0][0xff][0xff][0x3][0x0][0xae][0xd3][0xa8][0x96][0x89][0x0][0x0][0x0][\r][\n]"
+2015-08-11 12:01:22,888 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+2015-08-11 12:01:22,888 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-11 12:01:22,909 [executor-1] ERROR com.copart.figs.AuctionResultsProcessor - Error while calling Cobalt web service: 422 Unprocessable Entity {"errors":{"yard_num_lot_num":"yard_num doesn't match yard number of the lot","invalid_starting_lot_state":"invalid starting lot state"}}
+2015-08-11 12:02:43,354 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 8604 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-11 12:02:43,355 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-11 12:02:52,026 [main] INFO  com.copart.figs.Application - Started Application in 8.928 seconds (JVM running for 9.477)
+2015-08-11 12:02:52,449 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Auction Result : com.copart.figs.AuctionResult@3b3f4792[auctionLotOutboundId=1,countryCode=DE,apiKey=c0partation,vehicle=com.copart.figs.VehicleAuctionResult@4b758a87[lotNumber=50000001,facilityNumber=8001,memberNumber=700010003,highBidAmount=218000.0,bidHistory=[],warningFlag= ,warningMessage=],auctionServiceOrderStatus=AU07]
+2015-08-11 12:02:52,451 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - ***** Calling Cobalt web service to post the auction data.
+2015-08-11 12:02:52,966 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "PUT /vehicles/auction_result/50000001.json HTTP/1.1[\r][\n]"
+2015-08-11 12:02:52,966 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept: text/plain, application/json, application/*+json, */*[\r][\n]"
+2015-08-11 12:02:52,966 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2015-08-11 12:02:52,966 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Charset: utf-8[\r][\n]"
+2015-08-11 12:02:52,966 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 201[\r][\n]"
+2015-08-11 12:02:52,966 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: g1cobalt-dev3.copart.com[\r][\n]"
+2015-08-11 12:02:52,967 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-08-11 12:02:52,967 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-08-11 12:02:52,967 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-08-11 12:02:52,967 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+2015-08-11 12:02:52,967 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "{"auctionServiceOrderStatus":"AU07","api_key":"c0partation","vehicle":{"yard_num":"8001","member_num":"700010003","high_bid_amount":218000.0,"bid_histories":[],"warning_flag":" ","warning_message":""}}"
+2015-08-11 12:02:53,172 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 422 Unprocessable Entity[\r][\n]"
+2015-08-11 12:02:53,172 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Server: nginx/1.0.15[\r][\n]"
+2015-08-11 12:02:53,172 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Tue, 11 Aug 2015 17:03:47 GMT[\r][\n]"
+2015-08-11 12:02:53,172 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-08-11 12:02:53,172 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2015-08-11 12:02:53,172 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-08-11 12:02:53,172 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Status: 422 Unprocessable Entity[\r][\n]"
+2015-08-11 12:02:53,172 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2015-08-11 12:02:53,172 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2015-08-11 12:02:53,172 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2015-08-11 12:02:53,172 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2015-08-11 12:02:53,172 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2015-08-11 12:02:53,172 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+2015-08-11 12:02:53,173 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Request-Id: aa0a920c-98c7-4811-8f46-8d334119e54d[\r][\n]"
+2015-08-11 12:02:53,173 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Runtime: 0.145502[\r][\n]"
+2015-08-11 12:02:53,173 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: __profilin=p%3Dt; path=/[\r][\n]"
+2015-08-11 12:02:53,173 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: BNI_G1COBALT-DEV3=0000000000000000000000001d3de40a00005000; HttpOnly[\r][\n]"
+2015-08-11 12:02:53,173 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-11 12:02:53,173 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "79[\r][\n]"
+2015-08-11 12:02:53,173 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0xf3]*[0xca]U[0x0][0x3]<[0x8c]K[\n]"
+2015-08-11 12:02:53,173 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x80]0[0x10]C[0xaf][0x12]f[0xe3][0xc6][0x13][0xf4]2[0xa5][0xda]Q[0xb][0xda][0xc2]t[0x14]D[0xbc][0xbb][0xad][0xbf]U[0xc8]{$[0x7][0xb1]H[0x92]L[0xe6][0xa0][0xdd][0x89][0xb7]q][0xec][0x9c][0xb4]&[0x99][0x1f][0xc1]'[0xce][0xb1]Q,N[0xfb][0x9][0x15][0xa3][0xe0][0x8e][0x5]i[0x80]N[0x8c][0xb2][0xa1][0x96]B[0xdc][0xdc][0x1c][0xbc][0xcd][0xea]DC[0x1c][0xef][0xab]R[0x94][0xcb][0xd9]+[0xf1][0xc9][0xba][0xc1]#[0xcf][0xf3][0x2][0x0][0x0][0xff][0xff][0x3][0x0][0xae][0xd3][0xa8][0x96][0x89][0x0][0x0][0x0][\r][\n]"
+2015-08-11 12:02:53,173 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+2015-08-11 12:02:53,173 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-11 12:02:53,193 [executor-1] ERROR com.copart.figs.AuctionResultsProcessor - Error while calling Cobalt web service: 422 Unprocessable Entity {"errors":{"yard_num_lot_num":"yard_num doesn't match yard number of the lot","invalid_starting_lot_state":"invalid starting lot state"}}
+2015-08-11 12:05:35,712 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 12068 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-11 12:05:35,713 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-11 12:05:44,253 [main] INFO  com.copart.figs.Application - Started Application in 8.757 seconds (JVM running for 9.301)
+2015-08-11 12:05:44,645 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Auction Result : com.copart.figs.AuctionResult@4765bdc2[auctionLotOutboundId=1,countryCode=DE,apiKey=c0partation,vehicle=com.copart.figs.VehicleAuctionResult@3e48dd85[lotNumber=50000001,facilityNumber=8001,memberNumber=700010003,highBidAmount=218000.0,bidHistory=[],warningFlag= ,warningMessage=],auctionServiceOrderStatus=AU07]
+2015-08-11 12:05:44,647 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - ***** Calling Cobalt web service to post the auction data.
+2015-08-11 12:05:45,336 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "PUT /vehicles/auction_result/50000001.json HTTP/1.1[\r][\n]"
+2015-08-11 12:05:45,336 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept: text/plain, application/json, application/*+json, */*[\r][\n]"
+2015-08-11 12:05:45,336 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2015-08-11 12:05:45,336 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Charset: utf-8[\r][\n]"
+2015-08-11 12:05:45,336 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 201[\r][\n]"
+2015-08-11 12:05:45,336 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: g1cobalt-dev3.copart.com[\r][\n]"
+2015-08-11 12:05:45,336 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-08-11 12:05:45,336 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-08-11 12:05:45,336 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-08-11 12:05:45,336 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+2015-08-11 12:05:45,336 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "{"auctionServiceOrderStatus":"AU07","api_key":"c0partation","vehicle":{"yard_num":"8001","member_num":"700010003","high_bid_amount":218000.0,"bid_histories":[],"warning_flag":" ","warning_message":""}}"
+2015-08-11 12:05:45,487 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 422 Unprocessable Entity[\r][\n]"
+2015-08-11 12:05:45,487 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Server: nginx/1.0.15[\r][\n]"
+2015-08-11 12:05:45,487 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Tue, 11 Aug 2015 17:06:40 GMT[\r][\n]"
+2015-08-11 12:05:45,487 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-08-11 12:05:45,488 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2015-08-11 12:05:45,488 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-08-11 12:05:45,488 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Status: 422 Unprocessable Entity[\r][\n]"
+2015-08-11 12:05:45,488 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2015-08-11 12:05:45,488 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2015-08-11 12:05:45,488 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2015-08-11 12:05:45,488 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2015-08-11 12:05:45,488 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2015-08-11 12:05:45,488 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+2015-08-11 12:05:45,488 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Request-Id: fafd5929-80e2-4c02-8d03-f8ce039ed867[\r][\n]"
+2015-08-11 12:05:45,488 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Runtime: 0.089994[\r][\n]"
+2015-08-11 12:05:45,488 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: __profilin=p%3Dt; path=/[\r][\n]"
+2015-08-11 12:05:45,488 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: BNI_G1COBALT-DEV3=0000000000000000000000001d3de40a00005000; HttpOnly[\r][\n]"
+2015-08-11 12:05:45,488 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-11 12:05:45,488 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "79[\r][\n]"
+2015-08-11 12:05:45,489 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0xa0]+[0xca]U[0x0][0x3]<[0x8c]K[\n]"
+2015-08-11 12:05:45,489 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x80]0[0x10]C[0xaf][0x12]f[0xe3][0xc6][0x13][0xf4]2[0xa5][0xda]Q[0xb][0xda][0xc2]t[0x14]D[0xbc][0xbb][0xad][0xbf]U[0xc8]{$[0x7][0xb1]H[0x92]L[0xe6][0xa0][0xdd][0x89][0xb7]q][0xec][0x9c][0xb4]&[0x99][0x1f][0xc1]'[0xce][0xb1]Q,N[0xfb][0x9][0x15][0xa3][0xe0][0x8e][0x5]i[0x80]N[0x8c][0xb2][0xa1][0x96]B[0xdc][0xdc][0x1c][0xbc][0xcd][0xea]DC[0x1c][0xef][0xab]R[0x94][0xcb][0xd9]+[0xf1][0xc9][0xba][0xc1]#[0xcf][0xf3][0x2][0x0][0x0][0xff][0xff][0x3][0x0][0xae][0xd3][0xa8][0x96][0x89][0x0][0x0][0x0][\r][\n]"
+2015-08-11 12:05:45,489 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+2015-08-11 12:05:45,489 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-11 12:05:45,508 [executor-1] ERROR com.copart.figs.AuctionResultsProcessor - Error while calling Cobalt web service: 422 Unprocessable Entity {"errors":{"yard_num_lot_num":"yard_num doesn't match yard number of the lot","invalid_starting_lot_state":"invalid starting lot state"}}
+2015-08-11 12:05:45,641 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Updating couchbase for lot # : 50000001
+2015-08-11 12:05:45,642 [executor-1] DEBUG com.copart.figs.AuctionResultsProcessor - Pushing to Couchbase : com.copart.figs.AuctionResult@4765bdc2[auctionLotOutboundId=1,countryCode=DE,apiKey=c0partation,vehicle=com.copart.figs.VehicleAuctionResult@3e48dd85[lotNumber=50000001,facilityNumber=8001,memberNumber=700010003,highBidAmount=218000.0,bidHistory=[],warningFlag= ,warningMessage=],auctionServiceOrderStatus=AU07]
+2015-08-11 12:53:52,712 [main] INFO  com.copart.figs.Application - Starting Application on SXMULE2 with PID 5692 (C:\Shrikant\workspace_Middleware\figs-auction-results\target\classes started by sxmule in C:\Shrikant\workspace_Middleware\figs-auction-results)
+2015-08-11 12:53:52,713 [main] DEBUG com.copart.figs.Application - Running with Spring Boot v1.2.1.RELEASE, Spring v4.1.4.RELEASE
+2015-08-11 12:54:01,720 [main] INFO  com.copart.figs.Application - Started Application in 9.257 seconds (JVM running for 9.818)
+2015-08-11 12:54:02,154 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Auction Result : com.copart.figs.AuctionResult@49fd7114[auctionLotOutboundId=1,countryCode=DE,apiKey=c0partation,vehicle=com.copart.figs.VehicleAuctionResult@20d01004[lotNumber=50000001,facilityNumber=8001,memberNumber=700010003,highBidAmount=218000.0,bidHistory=[],warningFlag= ,warningMessage=],auctionServiceOrderStatus=AU07]
+2015-08-11 12:54:02,156 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - ***** Calling Cobalt web service to post the auction data.
+2015-08-11 12:54:02,663 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "PUT /vehicles/auction_result/50000001.json HTTP/1.1[\r][\n]"
+2015-08-11 12:54:02,664 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept: text/plain, application/json, application/*+json, */*[\r][\n]"
+2015-08-11 12:54:02,664 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2015-08-11 12:54:02,664 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Charset: utf-8[\r][\n]"
+2015-08-11 12:54:02,664 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 201[\r][\n]"
+2015-08-11 12:54:02,664 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: g1cobalt-dev3.copart.com[\r][\n]"
+2015-08-11 12:54:02,664 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2015-08-11 12:54:02,664 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2015-08-11 12:54:02,664 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-08-11 12:54:02,664 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+2015-08-11 12:54:02,664 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 >> "{"auctionServiceOrderStatus":"AU07","api_key":"c0partation","vehicle":{"yard_num":"8001","member_num":"700010003","high_bid_amount":218000.0,"bid_histories":[],"warning_flag":" ","warning_message":""}}"
+2015-08-11 12:54:02,856 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 422 Unprocessable Entity[\r][\n]"
+2015-08-11 12:54:02,856 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Server: nginx/1.0.15[\r][\n]"
+2015-08-11 12:54:02,856 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Tue, 11 Aug 2015 17:54:57 GMT[\r][\n]"
+2015-08-11 12:54:02,856 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2015-08-11 12:54:02,856 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2015-08-11 12:54:02,856 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2015-08-11 12:54:02,856 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Status: 422 Unprocessable Entity[\r][\n]"
+2015-08-11 12:54:02,856 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2015-08-11 12:54:02,856 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2015-08-11 12:54:02,856 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2015-08-11 12:54:02,856 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2015-08-11 12:54:02,857 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2015-08-11 12:54:02,857 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+2015-08-11 12:54:02,857 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Request-Id: 878be6cc-c8b0-491b-8457-f2db0348ed50[\r][\n]"
+2015-08-11 12:54:02,857 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Runtime: 0.126699[\r][\n]"
+2015-08-11 12:54:02,857 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: __profilin=p%3Dt; path=/[\r][\n]"
+2015-08-11 12:54:02,857 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: BNI_G1COBALT-DEV3=0000000000000000000000001d3de40a00005000; HttpOnly[\r][\n]"
+2015-08-11 12:54:02,857 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-11 12:54:02,857 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "79[\r][\n]"
+2015-08-11 12:54:02,857 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0xf1]6[0xca]U[0x0][0x3]<[0x8c]K[\n]"
+2015-08-11 12:54:02,857 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x80]0[0x10]C[0xaf][0x12]f[0xe3][0xc6][0x13][0xf4]2[0xa5][0xda]Q[0xb][0xda][0xc2]t[0x14]D[0xbc][0xbb][0xad][0xbf]U[0xc8]{$[0x7][0xb1]H[0x92]L[0xe6][0xa0][0xdd][0x89][0xb7]q][0xec][0x9c][0xb4]&[0x99][0x1f][0xc1]'[0xce][0xb1]Q,N[0xfb][0x9][0x15][0xa3][0xe0][0x8e][0x5]i[0x80]N[0x8c][0xb2][0xa1][0x96]B[0xdc][0xdc][0x1c][0xbc][0xcd][0xea]DC[0x1c][0xef][0xab]R[0x94][0xcb][0xd9]+[0xf1][0xc9][0xba][0xc1]#[0xcf][0xf3][0x2][0x0][0x0][0xff][0xff][0x3][0x0][0xae][0xd3][0xa8][0x96][0x89][0x0][0x0][0x0][\r][\n]"
+2015-08-11 12:54:02,857 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+2015-08-11 12:54:02,857 [executor-1] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2015-08-11 12:54:02,878 [executor-1] ERROR com.copart.figs.AuctionResultsProcessor - Error while calling Cobalt web service: 422 Unprocessable Entity {"errors":{"yard_num_lot_num":"yard_num doesn't match yard number of the lot","invalid_starting_lot_state":"invalid starting lot state"}}
+2015-08-11 12:54:03,009 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Updating couchbase for lot # : 50000001
+2015-08-11 12:54:03,009 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Updated couchbase successfully for lot # : 50000001
+2015-08-11 12:54:03,009 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Updating SOLR for lot # : 50000001
+2015-08-11 12:54:03,009 [executor-1] INFO  com.copart.figs.SolrConnector - ************Into Solr
+2015-08-11 12:54:03,009 [executor-1] INFO  com.copart.figs.SolrConnector - http://rnd1sr301.copart.com:8080/solr/GLots 3000 10000 3
+2015-08-11 12:54:03,042 [executor-1] INFO  com.copart.figs.SolrConnector - SolrInputDocument(fields: [LOT_NUMBER=50000001, MEMBER_ID={set=700010003}, LOT_STAGE={set=80}, HIGH_BID={set=218000.0}])
+2015-08-11 12:54:03,185 [executor-1] DEBUG org.apache.http.wire -  >> "POST /solr/GLots/update?wt=xml&version=2.2 HTTP/1.1[\r][\n]"
+2015-08-11 12:54:03,185 [executor-1] DEBUG org.apache.http.wire -  >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2015-08-11 12:54:03,186 [executor-1] DEBUG org.apache.http.wire -  >> "Transfer-Encoding: chunked[\r][\n]"
+2015-08-11 12:54:03,186 [executor-1] DEBUG org.apache.http.wire -  >> "Content-Type: application/xml; charset=UTF-8[\r][\n]"
+2015-08-11 12:54:03,186 [executor-1] DEBUG org.apache.http.wire -  >> "Host: rnd1sr301.copart.com:8080[\r][\n]"
+2015-08-11 12:54:03,186 [executor-1] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2015-08-11 12:54:03,186 [executor-1] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2015-08-11 12:54:03,186 [executor-1] DEBUG org.apache.http.wire -  >> "e4[\r][\n]"
+2015-08-11 12:54:03,186 [executor-1] DEBUG org.apache.http.wire -  >> "<add><doc boost="1.0"><field name="LOT_NUMBER">50000001</field><field name="MEMBER_ID" update="set">700010003</field><field name="LOT_STAGE" update="set">80</field><field name="HIGH_BID" update="set">218000.0</field></doc></add>"
+2015-08-11 12:54:03,186 [executor-1] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2015-08-11 12:54:03,186 [executor-1] DEBUG org.apache.http.wire -  >> "0[\r][\n]"
+2015-08-11 12:54:03,186 [executor-1] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2015-08-11 12:54:03,341 [executor-1] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+2015-08-11 12:54:03,341 [executor-1] DEBUG org.apache.http.wire -  << "Content-Type: application/xml; charset=UTF-8[\r][\n]"
+2015-08-11 12:54:03,341 [executor-1] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+2015-08-11 12:54:03,341 [executor-1] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2015-08-11 12:54:03,356 [executor-1] DEBUG org.apache.http.wire -  << "95[\r][\n]"
+2015-08-11 12:54:03,357 [executor-1] DEBUG org.apache.http.wire -  << "<?xml version="1.0" encoding="UTF-8"?>[\n]"
+2015-08-11 12:54:03,357 [executor-1] DEBUG org.apache.http.wire -  << "<response>[\n]"
+2015-08-11 12:54:03,357 [executor-1] DEBUG org.apache.http.wire -  << "<lst name="responseHeader"><int name="status">0</int><int name="QTime">100</int></lst>[\n]"
+2015-08-11 12:54:03,357 [executor-1] DEBUG org.apache.http.wire -  << "</response>[\n]"
+2015-08-11 12:54:03,409 [executor-1] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2015-08-11 12:54:03,409 [executor-1] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+2015-08-11 12:54:03,410 [executor-1] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2015-08-11 12:54:03,417 [executor-1] DEBUG org.apache.http.wire -  >> "POST /solr/GLots/update HTTP/1.1[\r][\n]"
+2015-08-11 12:54:03,417 [executor-1] DEBUG org.apache.http.wire -  >> "Content-Charset: UTF-8[\r][\n]"
+2015-08-11 12:54:03,417 [executor-1] DEBUG org.apache.http.wire -  >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2015-08-11 12:54:03,417 [executor-1] DEBUG org.apache.http.wire -  >> "User-Agent: Solr[org.apache.solr.client.solrj.impl.HttpSolrServer] 1.0[\r][\n]"
+2015-08-11 12:54:03,417 [executor-1] DEBUG org.apache.http.wire -  >> "Content-Length: 65[\r][\n]"
+2015-08-11 12:54:03,418 [executor-1] DEBUG org.apache.http.wire -  >> "Host: rnd1sr301.copart.com:8080[\r][\n]"
+2015-08-11 12:54:03,418 [executor-1] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+2015-08-11 12:54:03,418 [executor-1] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+2015-08-11 12:54:03,418 [executor-1] DEBUG org.apache.http.wire -  >> "commit=true&softCommit=false&waitSearcher=true&wt=xml&version=2.2"
+2015-08-11 12:54:03,695 [executor-1] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+2015-08-11 12:54:03,695 [executor-1] DEBUG org.apache.http.wire -  << "Content-Type: application/xml; charset=UTF-8[\r][\n]"
+2015-08-11 12:54:03,695 [executor-1] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+2015-08-11 12:54:03,695 [executor-1] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2015-08-11 12:54:03,695 [executor-1] DEBUG org.apache.http.wire -  << "95[\r][\n]"
+2015-08-11 12:54:03,695 [executor-1] DEBUG org.apache.http.wire -  << "<?xml version="1.0" encoding="UTF-8"?>[\n]"
+2015-08-11 12:54:03,695 [executor-1] DEBUG org.apache.http.wire -  << "<response>[\n]"
+2015-08-11 12:54:03,695 [executor-1] DEBUG org.apache.http.wire -  << "<lst name="responseHeader"><int name="status">0</int><int name="QTime">214</int></lst>[\n]"
+2015-08-11 12:54:03,695 [executor-1] DEBUG org.apache.http.wire -  << "</response>[\n]"
+2015-08-11 12:54:03,696 [executor-1] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2015-08-11 12:54:03,696 [executor-1] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+2015-08-11 12:54:03,696 [executor-1] DEBUG org.apache.http.wire -  << "[\r][\n]"
+2015-08-11 12:54:03,696 [executor-1] INFO  com.copart.figs.SolrConnector - ****************Inserted into solr
+2015-08-11 12:54:03,696 [executor-1] INFO  com.copart.figs.SolrConnector - Successfully added lot#50000001 Solr
+2015-08-11 12:54:03,696 [executor-1] INFO  com.copart.figs.AuctionResultsProcessor - Updated SOLR successfully for lot # : 50000001
+2015-08-12 02:22:09,669 [task-scheduler-6] ERROR org.springframework.integration.handler.LoggingHandler - org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.ibm.db2.jcc.am.DisconnectNonTransientConnectionException: [jcc][t4][2043][11550][3.66.46] Exception java.net.ConnectException: Error opening socket to server g1si-dev3.copart.com/10.228.66.20 on port 61,534 with message: Connection timed out: connect. ERRORCODE=-4499, SQLSTATE=08001
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:391)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:471)
+	at org.springframework.integration.jdbc.JdbcPollingChannelAdapter.doPoll(JdbcPollingChannelAdapter.java:210)
+	at org.springframework.integration.jdbc.JdbcPollingChannelAdapter.poll(JdbcPollingChannelAdapter.java:158)
+	at org.springframework.integration.jdbc.JdbcPollingChannelAdapter.receive(JdbcPollingChannelAdapter.java:145)
+	at org.springframework.integration.endpoint.SourcePollingChannelAdapter.receiveMessage(SourcePollingChannelAdapter.java:144)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.doPoll(AbstractPollingEndpoint.java:192)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.access$000(AbstractPollingEndpoint.java:55)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:149)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$1.call(AbstractPollingEndpoint.java:146)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller$1.run(AbstractPollingEndpoint.java:298)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor$1.run(ErrorHandlingTaskExecutor.java:52)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.execute(ErrorHandlingTaskExecutor.java:49)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint$Poller.run(AbstractPollingEndpoint.java:292)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:81)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.ibm.db2.jcc.am.DisconnectNonTransientConnectionException: [jcc][t4][2043][11550][3.66.46] Exception java.net.ConnectException: Error opening socket to server g1si-dev3.copart.com/10.228.66.20 on port 61,534 with message: Connection timed out: connect. ERRORCODE=-4499, SQLSTATE=08001
+	at com.ibm.db2.jcc.am.dd.a(dd.java:321)
+	at com.ibm.db2.jcc.am.dd.a(dd.java:402)
+	at com.ibm.db2.jcc.t4.yb.a(yb.java:439)
+	at com.ibm.db2.jcc.t4.yb.<init>(yb.java:96)
+	at com.ibm.db2.jcc.t4.a.b(a.java:354)
+	at com.ibm.db2.jcc.t4.b.newAgent_(b.java:2049)
+	at com.ibm.db2.jcc.am.Connection.initConnection(Connection.java:730)
+	at com.ibm.db2.jcc.am.Connection.<init>(Connection.java:676)
+	at com.ibm.db2.jcc.t4.b.<init>(b.java:333)
+	at com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:233)
+	at com.ibm.db2.jcc.DB2SimpleDataSource.getConnection(DB2SimpleDataSource.java:199)
+	at com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:474)
+	at com.ibm.db2.jcc.DB2Driver.connect(DB2Driver.java:115)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:307)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:200)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.reconnect(PooledConnection.java:358)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:782)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:617)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:186)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:127)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 24 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.ibm.db2.jcc.t4.v.run(v.java:49)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at com.ibm.db2.jcc.t4.yb.a(yb.java:425)
+	... 43 more
+

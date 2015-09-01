@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.ibm</groupId>
+  <artifactId>db2driver</artifactId>
+  <version>3.66</version>
+  <versioning>
+    <versions>
+      <version>3.66</version>
+    </versions>
+    <lastUpdated>20140512151814</lastUpdated>
+  </versioning>
+</metadata>
